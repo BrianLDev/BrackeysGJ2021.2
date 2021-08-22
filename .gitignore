@@ -87,3 +87,7 @@ Temporary Items
 
 # WAKATIME PACKAGE LINK:
 # https://github.com/vladfaust/unity-wakatime.git#package
+
+#LARGE FILES
+Assets/3rd-Party/RayFire/Plugins/Ios/libRF_CNative_ios.a
+Assets/3rd-Party/RayFire/Plugins/Ios/libRF_CNative_ios.a.meta
