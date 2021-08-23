@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/3rd-Party/Unity URP Sample/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/TorchFire Prototype.unity
+    guid: 4c73af155afed4176ab02efa219d7387
   m_configObjects: {}

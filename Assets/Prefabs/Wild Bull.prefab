@@ -1,5 +1,48 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8755854931660513183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5508012266324915792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e37195956eb43451da88d56a1487cbc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+--- !u!114 &2762556585766252119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5508012266324915792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b67db9fb1b20e445c9c824cc0476959a, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: CharacterControls
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
 --- !u!1001 &5509045713318044020
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9,7 +52,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1244760467543844, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
       propertyPath: m_Name
-      value: Wild Bull
+      value: Angry Bull
       objectReference: {fileID: 0}
     - target: {fileID: 4852562989172732, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
       propertyPath: m_RootOrder
@@ -55,7 +98,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 137675136802930510, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0a5f3ff93d8ae4e4c8b097005fcf77c9, type: 2}
     m_RemovedComponents:
     - {fileID: 114009100225796694, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
     - {fileID: 195059093664485922, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
+    - {fileID: 82796179080257434, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
+    - {fileID: 114332741007667790, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
+--- !u!1 &5508012266324915792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1244760467543844, guid: 82432984c7cfb7f40af9d8caaf71f926, type: 3}
+  m_PrefabInstance: {fileID: 5509045713318044020}
+  m_PrefabAsset: {fileID: 0}
