@@ -59,6 +59,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Unity user settings (for group projects)
+UserSettings/
+
 # Videos and screenshots from the game
 In-Game-Footage/
 
