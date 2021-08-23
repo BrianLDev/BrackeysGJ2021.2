@@ -183,8 +183,8 @@ MonoBehaviour:
       removeCollinear: 0
       layer: 
     runtimeCaching:
-      type: 0
-      frames: 3
+      type: 1
+      frames: 10
       fragments: 4
       skipFirstDemolition: 0
       inProgress: 0
