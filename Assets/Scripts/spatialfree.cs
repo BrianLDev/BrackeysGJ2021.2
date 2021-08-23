@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class spatialfree : MonoBehaviour
 {
@@ -9,10 +10,15 @@ public class spatialfree : MonoBehaviour
   public Transform leftFootMesh, rightFootMesh;
   Rigidbody rb;
 
+  private bool isLeftPressed;
+  private bool isRightPressed;
+
   void Start()
   {
     rb = GetComponent<Rigidbody>();
-  }
+    isLeftPressed = false;
+    isRightPressed = false;
+}
 
   void Update()
   {
@@ -27,8 +33,8 @@ public class spatialfree : MonoBehaviour
     // com = rb.centerOfMass;
     // rb.MoveRotation(Quaternion.Euler(0, Mathf.Sin(Time.time) * 45, 0));
     bool left, right;
-    left = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
-    right = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
+    left = isLeftPressed;
+    right = isRightPressed;
 
     if (left && right)
     {
@@ -59,4 +65,15 @@ public class spatialfree : MonoBehaviour
     rb.MovePosition(q * (rb.transform.position - origin) + origin);
     rb.MoveRotation(rb.transform.rotation * q);
   }
+
+  public void OnLeft(InputValue value)
+  {
+    isLeftPressed = value.isPressed;
+  }
+
+  public void OnRight(InputValue value)
+  {
+    isRightPressed = value.isPressed;
+  }
+
 }
