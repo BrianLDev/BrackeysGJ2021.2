@@ -12,9 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e5be0ec0931a44009542adbcf7845c5, type: 3}
   m_Name: MusicManager
   m_EditorClassIdentifier: 
-  mainMenuMusic: {fileID: 0}
-  gameMusic: {fileID: 0}
-  gameOverMusic: {fileID: 0}
-  gameMusicNoDrums: {fileID: 0}
-  gameMusic2: {fileID: 0}
-  gameMusic2NoDrums: {fileID: 0}
+  mainMenuMusic: {fileID: 8300000, guid: f02ad6ae5984f4e18a7bf06ace6c5a89, type: 3}
+  gameMusic: {fileID: 8300000, guid: a0c11479760a74383a7e926007d06094, type: 3}
+  gameOverMusic: {fileID: 8300000, guid: af6fd02d0d8464219b699c61eef0c1a5, type: 3}
