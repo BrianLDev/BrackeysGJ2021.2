@@ -172,6 +172,74 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "spatialfreeInput",
+            "id": "c778e3c2-1f21-4a0b-87ad-63aa4ee190d9",
+            "actions": [
+                {
+                    "name": "Left",
+                    "type": "PassThrough",
+                    "id": "7d40706a-d36d-409e-b221-faa9a1cae71d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right",
+                    "type": "PassThrough",
+                    "id": "e16c9389-578d-4f7d-b24a-90d02dfb2e48",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "01f9bab4-95e5-495f-bda0-2ce4961176fc",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7ab3ff18-e318-44c7-bbd8-5a14151e7942",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8986964-19d9-43ed-ba9d-4f68db8c7402",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "854d9747-e6d3-4197-a0ae-ba36acbb8c6c",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
