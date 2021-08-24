@@ -45,17 +45,17 @@ public class PlayerInputHandler : MonoBehaviour
         else
             isSprinting = false;
 
-        if (playerInput.actions[s_jump].IsPressed())
+        if (playerInput.actions[s_jump].WasPressedThisFrame())
             isJumping = true;
         else
             isJumping = false;
 
-        if (playerInput.actions[s_attack].IsPressed())
+        if (playerInput.actions[s_attack].WasPressedThisFrame())
             isAttacking = true;
         else
             isAttacking = false;
 
-        if (playerInput.actions[s_dash].IsPressed())
+        if (playerInput.actions[s_dash].WasPressedThisFrame())
             isDashing = true;
         else
             isDashing = false;
