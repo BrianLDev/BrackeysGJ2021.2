@@ -35,17 +35,19 @@ public class PlayerController : MonoBehaviour
     [Tooltip("What layers the character uses as ground")]
     public LayerMask GroundLayers;
 
-    private PlayerInputScript _input;
+    // private PlayerInputScript _input_old;
+    private PlayerInputHandler _input;
     private CharacterController _controller;
     private Animator _anim;
     private float _jumpTimeoutDelta;
     private float _fallTimeoutDelta;
     private float _verticalVelocity;
     private float _terminalVelocity = 53.0f;
+
     // Start is called before the first frame update
     void Start()
     {
-        _input = GetComponent<PlayerInputScript>();
+        _input = GetComponent<PlayerInputHandler>();
         _controller = GetComponent<CharacterController>();
         _anim = GetComponent<Animator>();
     }
@@ -74,13 +76,11 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        float targetSpeed = _input.sprint ? sprintSpeed : moveSpeed;
+        float targetSpeed = _input.isSprinting ? sprintSpeed : moveSpeed;
 
-        if (_input.move == Vector2.zero) targetSpeed = 0.0f;
+        if (_input.moveDirectionRaw == Vector2.zero) targetSpeed = 0.0f;
 
-        Vector3 moveDirection = new Vector3(_input.move.x, 0.0f, _input.move.y);
-
-        _controller.Move(moveDirection * targetSpeed * Time.deltaTime);
+        _controller.Move(_input.moveDirection * targetSpeed * Time.deltaTime);
         _controller.Move(new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 
         if(_anim != null)
@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
             }
 
             // Jump
-            if (_input.jump && _jumpTimeoutDelta <= 0.0f)
+            if (_input.isJumping && _jumpTimeoutDelta <= 0.0f)
             {
                 // the square root of H * -2 * G = how much velocity needed to reach desired height
                 _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour
             }
 
             // if we are not grounded, do not jump
-            _input.jump = false;
+            // _input.isJumping = false;
         }
 
         // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
 
     private void CalculateRotation()
     {
-        Vector3 mousePosition = _input.look;
+        Vector3 mousePosition = _input.lookDirectionRaw;
         Ray cameraRay = Camera.main.ScreenPointToRay(mousePosition);
         Plane groundPlane = new Plane(Vector3.up, new Vector3(0, 0, 0));
         float rayLength;

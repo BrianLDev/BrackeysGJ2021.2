@@ -11777,6 +11777,90 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 373f8fc9a010a4fb88ec67e0d97251cd, type: 3}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_ActionId
+      value: 381bb2aa-2103-4dbc-b8f8-7643ce8d645c
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_ActionId
+      value: 99072939-3bf5-45db-9e6c-e6d67cecd016
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionId
+      value: 9d997737-f99c-48ea-88fb-63bc7f8ab8e3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionId
+      value: 70c7d740-baf6-4cf0-8ef7-09cf54c393b5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionId
+      value: a07523a9-9535-4d7a-aaac-b0e4326ea9d8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionId
+      value: d6bddb13-7b96-45cf-9cc7-e7778bf3a248
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_ActionId
+      value: d77155f0-fb04-4dc9-9c40-13833b458f61
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[7].m_ActionId
+      value: 7d40706a-d36d-409e-b221-faa9a1cae71d
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_ActionId
+      value: e16c9389-578d-4f7d-b24a-90d02dfb2e48
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[0].m_ActionName
+      value: CharacterControls/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[1].m_ActionName
+      value: CharacterControls/Look[/Mouse/position]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_ActionName
+      value: CharacterControls/Sprint[/Keyboard/leftShift]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[3].m_ActionName
+      value: CharacterControls/Jump[/Keyboard/space]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[4].m_ActionName
+      value: CharacterControls/Attack[/Mouse/leftButton]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[5].m_ActionName
+      value: CharacterControls/Dash[/Keyboard/c]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[6].m_ActionName
+      value: CharacterControls/Special[/Mouse/rightButton]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[7].m_ActionName
+      value: spatialfreeInput/Left[/Keyboard/a,/Keyboard/leftArrow]
+      objectReference: {fileID: 0}
+    - target: {fileID: 2762556585766252119, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
+      propertyPath: m_ActionEvents.Array.data[8].m_ActionName
+      value: spatialfreeInput/Right[/Keyboard/d,/Keyboard/rightArrow]
+      objectReference: {fileID: 0}
     - target: {fileID: 5504861653533828744, guid: 46c65cfab913249eea8f1d14e230ff11, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -12662,13 +12746,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
+    - target: {fileID: 7658496874425009320, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b5defbe018570497aafd8465e1d4e094, type: 2}
     - target: {fileID: 8162930612146365821, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_Name
       value: bowl01
       objectReference: {fileID: 0}
     - target: {fileID: 8162930612146365821, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8791974836262223815, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_RootOrder
