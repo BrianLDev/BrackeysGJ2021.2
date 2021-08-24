@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 [RequireComponent( typeof(Animator), typeof(PlayerInput), typeof(PlayerInputHandler) )]
 public class BullController : MonoBehaviour {
-    [SerializeField] float speed;
+    [SerializeField] float speed = 1;
     private PlayerInputHandler inputHandler;
     private int animAttack, animIsEating, animIsWalking, animIsRunning, animIsDead;
 
@@ -20,8 +20,15 @@ public class BullController : MonoBehaviour {
     }
 
     private void Update() {
+
         if (inputHandler.isJumping) {
             Debug.Log("Jumping! (handler)");
         }
+
+        if (inputHandler.moveDirectionRaw != Vector2.zero) {
+            // TODO: WRITE MOVEMENT SCRIPT WHERE UP = FORWARD
+            // transform.Translate(transform.forward + inputHandler.moveDirection * speed * Time.deltaTime, Space.World);
+        }
     }
+
 }

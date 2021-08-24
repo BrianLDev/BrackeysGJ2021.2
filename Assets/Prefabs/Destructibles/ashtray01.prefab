@@ -167,7 +167,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 7
+    amount: 5
     variation: 10
     depthFade: 0.5
     contactBias: 0

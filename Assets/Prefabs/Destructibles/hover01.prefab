@@ -131,11 +131,11 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 2
   physics:
-    materialType: 6
+    materialType: 1
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
-    colliderType: 1
+    colliderType: 0
     planarCheck: 0
     ignoreNear: 1
     useGravity: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 7
+    amount: 5
     variation: 10
     depthFade: 0.5
     contactBias: 0
