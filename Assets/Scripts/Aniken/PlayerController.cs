@@ -25,11 +25,10 @@ public class PlayerController : MonoBehaviour
     public float JumpTimeout = 0.50f;
     [Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
     public float FallTimeout = 0.15f;
-
-
-    [Space(10)]
     [Tooltip("Time required to pass before being able to attack again. Set to 0f to instantly attack again")]
     public float AttackTimeout = 0.50f;
+    [Tooltip("Time required to pass before being able to dash again. Set to 0f to instantly dash again")]
+    public float DashTimeout = 3f;
 
     [Header("Player Grounded")]
     [Tooltip("If the character is grounded or not. Not part of the CharacterController built in grounded check")]
@@ -49,6 +48,7 @@ public class PlayerController : MonoBehaviour
     private float _jumpTimeoutDelta;
     private float _fallTimeoutDelta;
     private float _attackTimeoutDelta;
+    private float _dashTimeoutDelta;
     private float _verticalVelocity;
     private float _terminalVelocity = 53.0f;
 
@@ -71,6 +71,7 @@ public class PlayerController : MonoBehaviour
         Move();
         CalculateRotation();
         Attack();
+        Dash();
     }
 
     private void GroundedCheck()
@@ -178,6 +179,32 @@ public class PlayerController : MonoBehaviour
         {
             _attackTimeoutDelta -= Time.deltaTime;
         }
+    }
+
+    private void Dash()
+    {
+        if(_input.isDashing && _dashTimeoutDelta <= 0.0f && playerstate == PlayerState.MOVEMENT)
+        {
+            _dashTimeoutDelta = DashTimeout;
+            playerstate = PlayerState.DASH;
+            StartCoroutine(DashCoroutine());
+
+        }
+        while (_dashTimeoutDelta >= 0.0f)
+        {
+            _dashTimeoutDelta -= Time.deltaTime;
+        }
+    }
+
+    private IEnumerator DashCoroutine()
+    {
+        float startTime = Time.time;
+        while (Time.time < startTime + 0.2f)
+        {
+            _controller.Move(transform.forward * 50 * Time.deltaTime);
+            yield return null;
+        }
+        playerstate = PlayerState.MOVEMENT;
     }
 
     public void ResetAttack()
