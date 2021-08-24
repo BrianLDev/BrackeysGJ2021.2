@@ -1008,6 +1008,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1212277936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6659425199580826340, guid: aae1f481c9bb64ec999d84115275233b, type: 3}
+  m_PrefabInstance: {fileID: 1706821618}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1212277939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212277936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccba64bde8594f10871697277c82fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1257209871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,6 +1348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: My Gorilla Silver
       objectReference: {fileID: 0}
+    - target: {fileID: 6660079098821297839, guid: aae1f481c9bb64ec999d84115275233b, type: 3}
+      propertyPath: m_Actions
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: 373f8fc9a010a4fb88ec67e0d97251cd, type: 3}
     - target: {fileID: 6664216832921652494, guid: aae1f481c9bb64ec999d84115275233b, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1375,7 +1396,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6660079098821297488, guid: aae1f481c9bb64ec999d84115275233b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aae1f481c9bb64ec999d84115275233b, type: 3}
 --- !u!1 &1769013942
 GameObject:

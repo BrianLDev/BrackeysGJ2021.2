@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerInputHandler : MonoBehaviour
 {
-    public PlayerInput playerInput;
     public Vector2 moveDirectionRaw { get; private set; }
     public Vector2 lookDirectionRaw { get; private set; }
     public Vector3 moveDirection { get; private set; }
@@ -15,6 +14,7 @@ public class PlayerInputHandler : MonoBehaviour
     public bool isAttacking { get; private set; }
     public bool isDashing { get; private set; }
     public bool isSpecialPerforming { get; private set; }
+    private PlayerInput playerInput;
     private string s_sprint = "Sprint";
     private string s_jump = "Jump";
     private string s_attack = "Attack";
@@ -31,8 +31,8 @@ public class PlayerInputHandler : MonoBehaviour
     }
 
     public void OnLook(InputValue value) {
-        moveDirectionRaw = value.Get<Vector2>();
-        moveDirection = ConvertInputV2RawToV3(moveDirectionRaw);
+        lookDirectionRaw = value.Get<Vector2>();
+        lookDirection = ConvertInputV2RawToV3(lookDirectionRaw);
     }
 
     public static Vector3 ConvertInputV2RawToV3(Vector2 inputRaw) {
