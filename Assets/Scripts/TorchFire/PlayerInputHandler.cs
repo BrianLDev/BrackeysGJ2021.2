@@ -40,30 +40,11 @@ public class PlayerInputHandler : MonoBehaviour
     }
 
     private void Update() {
-        if (playerInput.actions[s_sprint].IsPressed())
-            isSprinting = true;
-        else
-            isSprinting = false;
-
-        if (playerInput.actions[s_jump].WasPressedThisFrame())
-            isJumping = true;
-        else
-            isJumping = false;
-
-        if (playerInput.actions[s_attack].WasPressedThisFrame())
-            isAttacking = true;
-        else
-            isAttacking = false;
-
-        if (playerInput.actions[s_dash].WasPressedThisFrame())
-            isDashing = true;
-        else
-            isDashing = false;
-
-        if (playerInput.actions[s_special].IsPressed())
-            isSpecialPerforming = true;
-        else
-            isSpecialPerforming = false;
+        isSprinting = playerInput.actions[s_sprint].IsPressed();
+        isJumping = playerInput.actions[s_jump].WasPressedThisFrame();
+        isAttacking = playerInput.actions[s_attack].WasPressedThisFrame();
+        isDashing = playerInput.actions[s_dash].WasPressedThisFrame();
+        isSpecialPerforming = playerInput.actions[s_special].IsPressed();
     }
 
 }
