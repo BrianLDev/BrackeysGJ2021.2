@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     [Tooltip("Time required to pass before being able to attack again. Set to 0f to instantly attack again")]
     public float AttackTimeout = 0.50f;
     [Tooltip("Time required to pass before being able to dash again. Set to 0f to instantly dash again")]
-    public float DashTimeout = 3f;
+    public float DashTimeout = 3.0f;
 
     [Header("Player Grounded")]
     [Tooltip("If the character is grounded or not. Not part of the CharacterController built in grounded check")]
@@ -190,9 +190,10 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(DashCoroutine());
 
         }
-        while (_dashTimeoutDelta >= 0.0f)
+        if (_dashTimeoutDelta >= 0.0f)
         {
             _dashTimeoutDelta -= Time.deltaTime;
+            Debug.Log(_dashTimeoutDelta);
         }
     }
 
