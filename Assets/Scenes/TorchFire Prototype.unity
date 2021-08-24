@@ -12662,13 +12662,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
+    - target: {fileID: 7658496874425009320, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b5defbe018570497aafd8465e1d4e094, type: 2}
     - target: {fileID: 8162930612146365821, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_Name
       value: bowl01
       objectReference: {fileID: 0}
     - target: {fileID: 8162930612146365821, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8791974836262223815, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_RootOrder

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent( typeof(Rigidbody), typeof(PlayerInput), typeof(PlayerInputHandler) )]
 public class spatialfree : MonoBehaviour
 {
   [Header("References")]
   public float spread = 0.375f;
   public Transform leftFootMesh, rightFootMesh;
-  Rigidbody rb;
-
+  private Rigidbody rb;
+  private PlayerInputHandler inputHandler;
   private bool isLeftPressed;
   private bool isRightPressed;
 
@@ -20,10 +21,6 @@ public class spatialfree : MonoBehaviour
     isRightPressed = false;
 }
 
-  void Update()
-  {
-
-  }
 
   float ramp;
   void FixedUpdate()
