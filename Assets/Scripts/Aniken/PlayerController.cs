@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public enum PlayerState { MOVEMENT, ATTACK, DASH, SPECIAL}
 
     [Header("Player")]
     [Tooltip("Move speed of the character in m/s")]
@@ -24,6 +25,10 @@ public class PlayerController : MonoBehaviour
     public float JumpTimeout = 0.50f;
     [Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
     public float FallTimeout = 0.15f;
+    [Tooltip("Time required to pass before being able to attack again. Set to 0f to instantly attack again")]
+    public float AttackTimeout = 0.50f;
+    [Tooltip("Time required to pass before being able to dash again. Set to 0f to instantly dash again")]
+    public float DashTimeout = 3f;
 
     [Header("Player Grounded")]
     [Tooltip("If the character is grounded or not. Not part of the CharacterController built in grounded check")]
@@ -39,10 +44,15 @@ public class PlayerController : MonoBehaviour
     private PlayerInputHandler _input;
     private CharacterController _controller;
     private Animator _anim;
+    private PlayerState playerstate;
     private float _jumpTimeoutDelta;
     private float _fallTimeoutDelta;
+    private float _attackTimeoutDelta;
+    private float _dashTimeoutDelta;
     private float _verticalVelocity;
     private float _terminalVelocity = 53.0f;
+
+    private int attckState = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -50,6 +60,7 @@ public class PlayerController : MonoBehaviour
         _input = GetComponent<PlayerInputHandler>();
         _controller = GetComponent<CharacterController>();
         _anim = GetComponent<Animator>();
+        playerstate = PlayerState.MOVEMENT;
     }
 
     // Update is called once per frame
@@ -59,6 +70,8 @@ public class PlayerController : MonoBehaviour
         GroundedCheck();
         Move();
         CalculateRotation();
+        Attack();
+        Dash();
     }
 
     private void GroundedCheck()
@@ -78,7 +91,7 @@ public class PlayerController : MonoBehaviour
     {
         float targetSpeed = _input.isSprinting ? sprintSpeed : moveSpeed;
 
-        if (_input.moveDirectionRaw == Vector2.zero) targetSpeed = 0.0f;
+        if (_input.moveDirectionRaw == Vector2.zero || playerstate != PlayerState.MOVEMENT) targetSpeed = 0.0f;
 
         _controller.Move(_input.moveDirection * targetSpeed * Time.deltaTime);
         _controller.Move(new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
@@ -145,7 +158,7 @@ public class PlayerController : MonoBehaviour
         Ray cameraRay = Camera.main.ScreenPointToRay(mousePosition);
         Plane groundPlane = new Plane(Vector3.up, new Vector3(0, 0, 0));
         float rayLength;
-        if (groundPlane.Raycast(cameraRay, out rayLength))
+        if (groundPlane.Raycast(cameraRay, out rayLength) && playerstate == PlayerState.MOVEMENT)
         {
             pointToLook = cameraRay.GetPoint(rayLength);
             Debug.DrawLine(cameraRay.origin, pointToLook, Color.red);
@@ -153,4 +166,51 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Attack()
+    {
+        if (_input.isAttacking && _attackTimeoutDelta <= 0.0f)
+        {
+            _attackTimeoutDelta = AttackTimeout;
+            playerstate = PlayerState.ATTACK;
+            _anim.SetInteger("Attack", ++attckState);
+        }
+
+        if(_attackTimeoutDelta >= 0.0f)
+        {
+            _attackTimeoutDelta -= Time.deltaTime;
+        }
+    }
+
+    private void Dash()
+    {
+        if(_input.isDashing && _dashTimeoutDelta <= 0.0f && playerstate == PlayerState.MOVEMENT)
+        {
+            _dashTimeoutDelta = DashTimeout;
+            playerstate = PlayerState.DASH;
+            StartCoroutine(DashCoroutine());
+
+        }
+        while (_dashTimeoutDelta >= 0.0f)
+        {
+            _dashTimeoutDelta -= Time.deltaTime;
+        }
+    }
+
+    private IEnumerator DashCoroutine()
+    {
+        float startTime = Time.time;
+        while (Time.time < startTime + 0.2f)
+        {
+            _controller.Move(transform.forward * 50 * Time.deltaTime);
+            yield return null;
+        }
+        playerstate = PlayerState.MOVEMENT;
+    }
+
+    public void ResetAttack()
+    {
+        attckState = 0;
+        playerstate = PlayerState.MOVEMENT;
+        _anim.SetInteger("Attack", attckState);
+    }
 }
