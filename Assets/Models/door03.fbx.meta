@@ -10,10 +10,15 @@ ModelImporter:
       name: door03
     second: {fileID: 2100000, guid: 09543b2427cc746c88561ba5034abf4f, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: acec4a4f553054a73a471c14a2129f27, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: door03
-    second: {fileID: 2800000, guid: 9a912e5d6bc3748b0bcbd807b6ca6164, type: 3}
+    second: {fileID: 2800000, guid: b010f63b55fdf4bdeaf08312f7b8b459, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
