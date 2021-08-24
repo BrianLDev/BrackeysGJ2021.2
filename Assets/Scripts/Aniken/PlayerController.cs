@@ -129,7 +129,7 @@ public class PlayerController : MonoBehaviour
             }
 
             // if we are not grounded, do not jump
-            // _input.isJumping = false;
+            //_input.isJumping = false;
         }
 
         // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
