@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8934737508955024121
 Transform:
   m_ObjectHideFlags: 0
@@ -161,7 +161,7 @@ MonoBehaviour:
     tag: 
     depth: 1
     time: 0.2
-    size: 0.1
+    size: 0.2
     visible: 0
     sliceByBlade: 0
     bound:
