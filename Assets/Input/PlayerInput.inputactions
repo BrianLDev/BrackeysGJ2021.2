@@ -330,6 +330,52 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "CowControls",
+            "id": "8e6a60e0-1a9f-4abd-b054-e81d2391dd1b",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "b81de7ee-121c-4376-838c-c72a4873e336",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "2668bac5-0a60-4137-bffb-84147a3f2c6a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9cc9c4c1-d95a-43f5-8472-18d6e8ee9f3b",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=15,y=15)",
+                    "groups": "KeyboardMouse",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3af2ea7a-a39a-43c0-987c-abea6859ff61",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=15,y=15)",
+                    "groups": "KeyboardMouse",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
