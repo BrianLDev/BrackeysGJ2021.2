@@ -13,9 +13,9 @@ TagManager:
   - UI
   - Player
   - CanPush
-  - 
-  - 
-  - 
+  - Destructibles
+  - Ground
+  - Walls
   - 
   - 
   - 

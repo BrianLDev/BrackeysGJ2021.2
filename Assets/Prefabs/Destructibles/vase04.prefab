@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5091870805460109103
 Transform:
   m_ObjectHideFlags: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   initialization: 1
   simulationType: 0
   objectType: 0
-  demolitionType: 2
+  demolitionType: 3
   physics:
     materialType: 6
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
@@ -138,7 +138,7 @@ MonoBehaviour:
     planarCheck: 0
     ignoreNear: 1
     useGravity: 1
-    solverIterations: 6
+    solverIterations: 2
     dampening: 0.7
     rigidBody: {fileID: 0}
     meshCollider: {fileID: 0}
@@ -167,7 +167,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 5
+    amount: 4
     variation: 10
     depthFade: 0.5
     contactBias: 0
@@ -178,9 +178,9 @@ MonoBehaviour:
     meshInput: 9
     properties:
       colliderType: 0
-      sizeFilter: 0
+      sizeFilter: 0.2
       decompose: 0
-      removeCollinear: 0
+      removeCollinear: 1
       layer: 
     runtimeCaching:
       type: 1

@@ -12,15 +12,17 @@ GameObject:
   - component: {fileID: 3251108793858018068}
   - component: {fileID: 791144181394227166}
   - component: {fileID: 2106313333429510998}
-  - component: {fileID: 2106313333429510999}
-  - component: {fileID: 2106313333429510997}
+  - component: {fileID: 4409426488743347033}
+  - component: {fileID: 3199625512696798989}
+  - component: {fileID: 2659052387266748864}
+  - component: {fileID: 1903739596}
   m_Layer: 0
   m_Name: hover01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1923487481320260785
 Transform:
   m_ObjectHideFlags: 0
@@ -100,7 +102,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
---- !u!64 &2106313333429510999
+--- !u!114 &4409426488743347033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295428110605426187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86df15996814cff45aed711a3ccf2a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintingData: {fileID: 11400000, guid: 9b6aa69bd00414c6faf88df37202011f, type: 2}
+  hullData: {fileID: 11400000, guid: c45e07a4f5822403cb56db3bb640e138, type: 2}
+--- !u!64 &3199625512696798989
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,8 +129,22 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4493585093827132993, guid: 81d2f0cc4792540cca9492cc320c2bf3, type: 3}
---- !u!114 &2106313333429510997
+  m_Mesh: {fileID: -1053768621085084526, guid: c45e07a4f5822403cb56db3bb640e138, type: 2}
+--- !u!64 &2659052387266748864
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295428110605426187}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1605358582013418005, guid: c45e07a4f5822403cb56db3bb640e138, type: 2}
+--- !u!114 &1903739596
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,17 +159,17 @@ MonoBehaviour:
   initialization: 1
   simulationType: 0
   objectType: 0
-  demolitionType: 2
+  demolitionType: 3
   physics:
-    materialType: 1
+    materialType: 6
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
-    colliderType: 0
+    colliderType: 1
     planarCheck: 0
     ignoreNear: 1
     useGravity: 1
-    solverIterations: 6
+    solverIterations: 2
     dampening: 0.7
     rigidBody: {fileID: 0}
     meshCollider: {fileID: 0}
@@ -179,9 +209,9 @@ MonoBehaviour:
     meshInput: 9
     properties:
       colliderType: 0
-      sizeFilter: 0
+      sizeFilter: 0.2
       decompose: 0
-      removeCollinear: 0
+      removeCollinear: 1
       layer: 
     runtimeCaching:
       type: 1
