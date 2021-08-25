@@ -60,12 +60,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: demolitionType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: meshDemolition.seed
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: meshDemolition.variation
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: physics.solverIterations
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: meshDemolition.properties.sizeFilter
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: meshDemolition.properties.removeCollinear
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8847177250480618212, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_Materials.Array.data[0]

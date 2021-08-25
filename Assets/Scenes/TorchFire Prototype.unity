@@ -988,37 +988,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -1030,7 +1002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.04
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1560,37 +1532,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -1602,7 +1546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.02
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1730,10 +1674,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: urn01 (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1744,7 +1684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.317
+      value: 1.307
       objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1778,30 +1718,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
 --- !u!43 &639917401
@@ -1810,7 +1726,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21122
+  m_Name: pb_Mesh21124
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2219,7 +2135,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21152
+  m_Name: pb_Mesh21154
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2383,7 +2299,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh20888
+  m_Name: pb_Mesh20886
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2705,144 +2621,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &744191467 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7207030832334557104, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-  m_PrefabInstance: {fileID: 7549701528106129305}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &744191478 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 9152572471759171173, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-  m_PrefabInstance: {fileID: 7549701528106129305}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &744191479 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 6404276322703088303, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-  m_PrefabInstance: {fileID: 7549701528106129305}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &744191480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744191467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b55d9bb3ec909340848c72a5bfc0ad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 0
-  voronoi:
-    amount: 30
-    centerBias: 0
-  splinters:
-    axis: 1
-    amount: 30
-    strength: 0.7
-    centerBias: 0
-  slabs:
-    axis: 1
-    amount: 30
-    strength: 0.7
-    centerBias: 0
-  radial:
-    centerAxis: 1
-    radius: 1
-    divergence: 1
-    restrictToPlane: 1
-    rings: 10
-    focus: 0
-    focusStr: 50
-    randomRings: 50
-    rays: 10
-    randomRays: 0
-    twist: 0
-  custom:
-    source: 4
-    useAs: 12
-    amount: 100
-    radius: 1
-    enable: 1
-    size: 0.05
-    transforms: []
-    vector3: []
-    noPoints: 0
-  mirrored:
-    amount: 50
-    planeType: 0
-    noPoints: 0
-  slice:
-    plane: 1
-    sliceList: []
-  tets:
-    lattice: 0
-    density: 7
-    noise: 100
-  mode: 1
-  material:
-    innerMaterial: {fileID: 0}
-    mappingScale: 0.1
-    outerMaterial: {fileID: 0}
-    needNewMat: 0
-  clusters:
-    enable: 0
-    count: 10
-    seed: 1
-    relax: 0.5
-    amount: 0
-    layers: 0
-    scale: 1
-    min: 1
-    max: 3
-  advanced:
-    seed: 2
-    decompose: 1
-    removeCollinear: 1
-    copyComponents: 0
-    postWeld: 0
-    smooth: 0
-    inputPrecap: 1
-    outputPrecap: 0
-    removeDoubleFaces: 1
-    elementSizeThreshold: 5
-    combineChildren: 0
-    inner: 0
-    planar: 0
-    relativeSize: 4
-    absoluteSize: 0.1
-    vertexLimitation: 0
-    vertexAmount: 300
-  export:
-    source: 0
-    suffix: _frags
-  showCenter: 0
-  centerPosition: {x: -0.0017536964, y: 0.839936, z: -0.0000001231906}
-  centerDirection: {x: 0, y: 0, z: 0, w: 1}
-  transForm: {fileID: 543450652426879635}
-  meshFilter: {fileID: 744191479}
-  meshRenderer: {fileID: 744191478}
-  skinnedMeshRend: {fileID: 0}
-  meshFilters: []
-  meshes: []
-  pivots: []
-  rootChildList: []
-  fragmentsAll: []
-  fragmentsLast: []
-  origSubMeshIdsRF: []
-  materials:
-  - {fileID: 2100000, guid: 99ddb8e30eae04f2d9f1252b06908f4b, type: 2}
-  shatterMode: 1
-  colorPreview: 0
-  scalePreview: 1
-  previewScale: 0
-  size: 2.0136049
-  rescaleFix: 1
-  originalScale: {x: 1, y: 1, z: 1}
-  bound:
-    m_Center: {x: 7.38225, y: 0.862936, z: -8.993008}
-    m_Extent: {x: 0.50248474, y: 0.84078383, z: 0.23290105}
-  resetState: 0
 --- !u!43 &747542580
 Mesh:
   m_ObjectHideFlags: 0
@@ -3428,37 +3206,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -3470,7 +3220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.03
+      value: 1.045
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5271,37 +5021,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -5313,7 +5035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 1.015
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6804,10 +6526,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: urn01 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -6851,30 +6569,6 @@ PrefabInstance:
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
@@ -7047,6 +6741,76 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1417687178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2125762405}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.35933486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: -0.3593348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.626206
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.103461
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.86264175
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5058155
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -60.771
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+      propertyPath: m_Name
+      value: cello01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+--- !u!4 &1417687179 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2794348f2627f4adcbcea4d5aed77fc7, type: 3}
+  m_PrefabInstance: {fileID: 1417687178}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1447323471
 GameObject:
   m_ObjectHideFlags: 0
@@ -9413,10 +9177,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: urn01 (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -9460,30 +9220,6 @@ PrefabInstance:
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
@@ -9989,37 +9725,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -10031,7 +9739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.05
+      value: 1.075
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10074,37 +9782,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1834504977, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_Name
       value: plate01 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3555858680471766216, guid: b4501b104f9104a7493f94f516964889, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_RootOrder
@@ -11683,7 +11363,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21180
+  m_Name: pb_Mesh21182
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12468,6 +12148,7 @@ Transform:
   - {fileID: 516878035}
   - {fileID: 1290616430}
   - {fileID: 844038290}
+  - {fileID: 1417687179}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12484,7 +12165,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: d7b90afdb64da42d09983bdd489bfb18, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 71ddfa4ac2aac47e992b08a076533059, type: 2}
 --- !u!23 &2125762407
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12533,7 +12214,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125762404}
-  m_Mesh: {fileID: 4300000, guid: d7b90afdb64da42d09983bdd489bfb18, type: 2}
+  m_Mesh: {fileID: 4300000, guid: 71ddfa4ac2aac47e992b08a076533059, type: 2}
 --- !u!1001 &446255525035743485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12584,14 +12265,6 @@ PrefabInstance:
     - target: {fileID: 124924811909425824, guid: cd1ccbcab9b63408ebcc29dc340f4f4a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 446255525085252932, guid: cd1ccbcab9b63408ebcc29dc340f4f4a, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 446255525085252932, guid: cd1ccbcab9b63408ebcc29dc340f4f4a, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 788133064878207002, guid: cd1ccbcab9b63408ebcc29dc340f4f4a, type: 3}
       propertyPath: m_Name
@@ -12767,14 +12440,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 913671108328607259, guid: e67560e9ee00d42dda6a001e7f8f36c2, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 913671108328607259, guid: e67560e9ee00d42dda6a001e7f8f36c2, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e67560e9ee00d42dda6a001e7f8f36c2, type: 3}
 --- !u!1001 &1299786511832517695
@@ -12784,14 +12449,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1299786511556795286, guid: f19c877bcc3be4393816f037f216c4ea, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1299786511556795286, guid: f19c877bcc3be4393816f037f216c4ea, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1550220751617047666, guid: f19c877bcc3be4393816f037f216c4ea, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -12853,14 +12510,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1384602838727628846, guid: 6b5731113ea134fa5a9c6b6dd3815a82, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1384602838727628846, guid: 6b5731113ea134fa5a9c6b6dd3815a82, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1494528288451133376, guid: 6b5731113ea134fa5a9c6b6dd3815a82, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -12922,14 +12571,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 819809704735362707, guid: 528b8be3551cc4ec082771a2501bb4a3, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 819809704735362707, guid: 528b8be3551cc4ec082771a2501bb4a3, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1533329946446873570, guid: 528b8be3551cc4ec082771a2501bb4a3, type: 3}
       propertyPath: m_Name
       value: pot01
@@ -12991,14 +12632,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1903739596, guid: 10caac721a40e4cb992f073c675054a7, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1903739596, guid: 10caac721a40e4cb992f073c675054a7, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1295428110605426187, guid: 10caac721a40e4cb992f073c675054a7, type: 3}
       propertyPath: m_Name
       value: vacuum01
@@ -13068,14 +12701,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 651305320093203205, guid: 7a82dcb5527344f1d877a4418bfbe288, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 651305320093203205, guid: 7a82dcb5527344f1d877a4418bfbe288, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 1045784823610170609, guid: 7a82dcb5527344f1d877a4418bfbe288, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -13129,14 +12754,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 995956745, guid: 4e85e1435caea43489d8e0d45522ef03, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 995956745, guid: 4e85e1435caea43489d8e0d45522ef03, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 2496592222645921513, guid: 4e85e1435caea43489d8e0d45522ef03, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13307,26 +12924,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: window01
       objectReference: {fileID: 0}
-    - target: {fileID: 3030661317212908588, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4744222156898426881, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4744222156898426881, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4744222156898426881, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4744222156898426881, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 358ee2c557c504d2ab49bdd918af49cc, type: 3}
 --- !u!1001 &3121771923478909272
@@ -13343,14 +12940,6 @@ PrefabInstance:
     - target: {fileID: 2851810833466046833, guid: 64576cd3d97af41d6a81f9d10298c4a8, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121771922448679971, guid: 64576cd3d97af41d6a81f9d10298c4a8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3121771922448679971, guid: 64576cd3d97af41d6a81f9d10298c4a8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3231467403316224971, guid: 64576cd3d97af41d6a81f9d10298c4a8, type: 3}
       propertyPath: m_RootOrder
@@ -13412,14 +13001,6 @@ PrefabInstance:
     - target: {fileID: 7371193622701266272, guid: 49920eef07d01401c834e4569d86fa6e, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7677181999155963950, guid: 49920eef07d01401c834e4569d86fa6e, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7677181999155963950, guid: 49920eef07d01401c834e4569d86fa6e, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7854397765228138458, guid: 49920eef07d01401c834e4569d86fa6e, type: 3}
       propertyPath: m_RootOrder
@@ -13488,7 +13069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 1.943
       objectReference: {fileID: 0}
     - target: {fileID: 4184725921404690034, guid: b4501b104f9104a7493f94f516964889, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13583,14 +13164,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4555977580596462066, guid: 7227e81f304ba4239b832fd6adfcd48c, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4555977580596462066, guid: 7227e81f304ba4239b832fd6adfcd48c, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7227e81f304ba4239b832fd6adfcd48c, type: 3}
 --- !u!1001 &4693679865800661113
@@ -13600,14 +13173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 937815901, guid: 5536c06ba1c86443e9fe8390fceaedae, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 937815901, guid: 5536c06ba1c86443e9fe8390fceaedae, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5091870805460109103, guid: 5536c06ba1c86443e9fe8390fceaedae, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -13713,14 +13278,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5186133925281625072, guid: cfccfe30cf6c84fa2a9409450ae8b9a8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5186133925281625072, guid: cfccfe30cf6c84fa2a9409450ae8b9a8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 5420557698943831714, guid: cfccfe30cf6c84fa2a9409450ae8b9a8, type: 3}
       propertyPath: m_Name
       value: milk01
@@ -13738,14 +13295,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 756048741956538181, guid: 5c9b0beed145a4a05940342c5d1dde16, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 756048741956538181, guid: 5c9b0beed145a4a05940342c5d1dde16, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 6334967688041854689, guid: 5c9b0beed145a4a05940342c5d1dde16, type: 3}
       propertyPath: m_Name
       value: potstack01
@@ -13851,14 +13400,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2801227339808231403, guid: 240e5f174ecfe47bf8f0f12177f40406, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2801227339808231403, guid: 240e5f174ecfe47bf8f0f12177f40406, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3035035536209015461, guid: 240e5f174ecfe47bf8f0f12177f40406, type: 3}
       propertyPath: m_Name
       value: urn03
@@ -13876,33 +13417,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 7184402045292373090, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7184402045292373090, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: simulationType
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7184402045292373090, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: meshDemolition.meshInput
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7184402045292373090, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7184402045292373090, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: referenceDemolition.action
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7207030832334557104, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
       propertyPath: m_Name
       value: shelf02
-      objectReference: {fileID: 0}
-    - target: {fileID: 7207030832334557104, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8020722881676088586, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
       propertyPath: m_RootOrder
@@ -13948,8 +13465,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 744191480, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27899bd86d3cd47cea43d9b2d74f4fab, type: 3}
 --- !u!1001 &7856223286359630798
 PrefabInstance:
@@ -14010,14 +13526,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7856223286256133759, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
 --- !u!1001 &7990269529379024629
@@ -14027,14 +13535,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 1226463422, guid: 0b177123220034bce843f16042e6711f, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1226463422, guid: 0b177123220034bce843f16042e6711f, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 7071295852950808444, guid: 0b177123220034bce843f16042e6711f, type: 3}
       propertyPath: m_Name
       value: bowl02
@@ -14096,14 +13596,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 8071947885894029381, guid: e807aac19841240f6b8792287027f8ad, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8071947885894029381, guid: e807aac19841240f6b8792287027f8ad, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8615360423363917741, guid: e807aac19841240f6b8792287027f8ad, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -14165,14 +13657,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2125762405}
     m_Modifications:
-    - target: {fileID: 2078445496, guid: a5a18e97fc135449f9bb1f22ed8137f3, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2078445496, guid: a5a18e97fc135449f9bb1f22ed8137f3, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 8179598230947285191, guid: a5a18e97fc135449f9bb1f22ed8137f3, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -14241,14 +13725,6 @@ PrefabInstance:
     - target: {fileID: 8121468703057326147, guid: d67c6a15c37bf4708bdb76674d568d9a, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402767934267010733, guid: d67c6a15c37bf4708bdb76674d568d9a, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8402767934267010733, guid: d67c6a15c37bf4708bdb76674d568d9a, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8934737508955024121, guid: d67c6a15c37bf4708bdb76674d568d9a, type: 3}
       propertyPath: m_RootOrder
@@ -14354,14 +13830,6 @@ PrefabInstance:
     - target: {fileID: 8791974836262223815, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9046016367666944043, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
-      propertyPath: demolitionType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9046016367666944043, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
-      propertyPath: physics.solverIterations
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 204938f71d73e4c479481984e1ec37a6, type: 3}
