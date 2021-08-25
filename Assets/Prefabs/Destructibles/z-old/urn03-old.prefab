@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6751220596204968626}
   - component: {fileID: 6751220596204968624}
   m_Layer: 0
-  m_Name: urn03
+  m_Name: urn03-old
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 2
   physics:
-    materialType: 3
+    materialType: 6
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
     amount: 5
-    variation: 10
+    variation: 9
     depthFade: 0.5
     contactBias: 0
     seed: 1
