@@ -125,7 +125,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 9
   physics:
-    materialType: 6
+    materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -155,7 +155,7 @@ MonoBehaviour:
     tag: 
     depth: 1
     time: 0.2
-    size: 0.1
+    size: 0.15
     visible: 0
     sliceByBlade: 0
     bound:
@@ -173,7 +173,7 @@ MonoBehaviour:
     meshInput: 6
     properties:
       colliderType: 0
-      sizeFilter: 0.2
+      sizeFilter: 0.15
       decompose: 0
       removeCollinear: 1
       layer: 

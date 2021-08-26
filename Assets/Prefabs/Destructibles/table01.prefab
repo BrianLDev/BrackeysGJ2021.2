@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1550220751617047666
 Transform:
   m_ObjectHideFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2218213186562352840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.831, y: 2.627, z: -9}
-  m_LocalScale: {x: 0.99548244, y: 0.99548244, z: 0.99548244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -130,7 +130,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -160,7 +160,7 @@ MonoBehaviour:
     tag: 
     depth: 1
     time: 0.2
-    size: 0.1
+    size: 0.15
     visible: 0
     sliceByBlade: 0
     bound:
@@ -178,7 +178,7 @@ MonoBehaviour:
     meshInput: 9
     properties:
       colliderType: 0
-      sizeFilter: 0.2
+      sizeFilter: 0.15
       decompose: 0
       removeCollinear: 1
       layer: 

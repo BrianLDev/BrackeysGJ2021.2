@@ -160,7 +160,7 @@ MonoBehaviour:
     solidity: 0.1
     tag: 
     depth: 1
-    time: 0.3
+    time: 0.2
     size: 0.2
     visible: 0
     sliceByBlade: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
     properties:
       colliderType: 0
       sizeFilter: 0.2
-      decompose: 1
+      decompose: 0
       removeCollinear: 1
       layer: 
     runtimeCaching:
