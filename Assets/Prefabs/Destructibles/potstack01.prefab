@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6334967688041854689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.453}
-  m_LocalScale: {x: 0.21206237, y: 0.21206237, z: 0.21206237}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -160,7 +160,7 @@ MonoBehaviour:
     tag: 
     depth: 1
     time: 0.2
-    size: 0.2
+    size: 0.15
     visible: 0
     sliceByBlade: 0
     bound:
@@ -178,7 +178,7 @@ MonoBehaviour:
     meshInput: 9
     properties:
       colliderType: 0
-      sizeFilter: 0.2
+      sizeFilter: 0.15
       decompose: 0
       removeCollinear: 1
       layer: 
