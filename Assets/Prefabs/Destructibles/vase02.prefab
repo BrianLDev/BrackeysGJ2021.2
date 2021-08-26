@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8505465975112183593}
   - component: {fileID: 8505465975112183592}
   - component: {fileID: 2078445496}
+  - component: {fileID: 727203468}
   m_Layer: 0
   m_Name: vase02
   m_TagString: Untagged
@@ -295,3 +296,16 @@ MonoBehaviour:
   restriction: {fileID: 0}
   sound: {fileID: 0}
   rigidRoot: {fileID: 0}
+--- !u!114 &727203468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8847345573132931709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}
