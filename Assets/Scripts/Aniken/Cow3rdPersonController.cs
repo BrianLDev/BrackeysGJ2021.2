@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CowController : MonoBehaviour
+public class Cow3rdPersonController : MonoBehaviour
 {
     [Header("Player")]
     [Tooltip("Move speed of the character in m/s")]

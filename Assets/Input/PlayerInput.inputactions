@@ -356,9 +356,9 @@
                 {
                     "name": "",
                     "id": "9cc9c4c1-d95a-43f5-8472-18d6e8ee9f3b",
-                    "path": "<Mouse>/delta",
+                    "path": "<Mouse>/position",
                     "interactions": "",
-                    "processors": "InvertVector2(invertX=false),ScaleVector2(x=15,y=15)",
+                    "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "Look",
                     "isComposite": false,

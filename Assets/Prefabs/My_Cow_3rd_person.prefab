@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 1053269134}
   - component: {fileID: 1053269135}
   m_Layer: 0
-  m_Name: My_Cow
+  m_Name: My_Cow_3rd_person
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
