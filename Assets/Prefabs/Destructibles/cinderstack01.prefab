@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3494421590365928796}
   - component: {fileID: 5903939223373521669}
   - component: {fileID: 1420089272677867682}
+  - component: {fileID: 6685265135043843738}
   m_Layer: 0
   m_Name: cinderstack01
   m_TagString: Untagged
@@ -338,3 +339,16 @@ MonoBehaviour:
   restriction: {fileID: 0}
   sound: {fileID: 0}
   rigidRoot: {fileID: 0}
+--- !u!114 &6685265135043843738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 0}

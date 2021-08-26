@@ -17,8 +17,4 @@ public class DestructibleData : ScriptableObject {
     public AudioClip destroySfx;
     // If we need to track any other destructible varialbes, add them here
 
-    public void DestroyMe() {
-        ScoreManager.Instance.ChangeScore(pointsForDestroying);
-        AudioManager.Instance.PlayClip(destroySfx, AudioCategory.Sfx, 1, 1);    // TODO: add location of destroyed object if possible
-    }
 }
