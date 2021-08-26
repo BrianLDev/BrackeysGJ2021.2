@@ -11,6 +11,7 @@ public class Cow3rdPersonController : MonoBehaviour
     [Range(0.0f, 0.3f)]
     public float RotationSmoothTime = 0.12f;
 
+
     //[Header("Player Grounded")]
     //[Tooltip("If the character is grounded or not. Not part of the CharacterController built in grounded check")]
     //public bool Grounded = true;
