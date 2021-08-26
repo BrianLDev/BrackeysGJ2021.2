@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
+  m_Name: grammophone01 Painting Data
+  m_EditorClassIdentifier: 
+  hullData: {fileID: 11400000, guid: d4e9a58253f384039bcf920cb5c16501, type: 2}
+  sourceMesh: {fileID: -3145121115808851403, guid: 60321fc9faeb9440e8617bc8d20d8187, type: 3}
+  activeHull: 1
+  faceThickness: 0.1
+  hulls:
+  - name: Base
+    isVisible: 1
+    type: 0
+    colour: {r: 0, g: 1, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: b0000000af000000b9000000ba000000bb000000ad000000ae000000c2000000c1000000e2000000ca000000c9000000e1000000cc000000c4000000cb000000cf000000d0000000b1000000c3000000b2000000b8000000b7000000df000000e0000000c5000000c6000000b6000000b5000000b3000000b4000000ce000000cd000000e6000000e5000000de000000dd000000bd000000d2000000d1000000e3000000be000000c7000000e4000000ab000000ac000000bf000000c0000000bc000000c8000000dc000000db000000d9000000da000000d5000000d6000000d7000000d8000000d4000000d3000000
+    collisionMesh: {fileID: 0}
+    collisionBox:
+      m_Center: {x: 0, y: 0.15737678, z: 0}
+      m_Extent: {x: 0.29861274, y: 0.15899451, z: 0.29861274}
+    boxPosition: {x: 0, y: 0, z: 0}
+    boxRotation: {x: 0, y: 0, z: 0, w: 1}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 0
+  - name: Horn
+    isVisible: 1
+    type: 2
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 180000001e0000005500000017000000530000004e0000000e00000050000000510000004d0000000c0000000b0000000a0000000d0000004f0000000f000000100000005200000011000000190000005a00000024000000560000000900000016000000590000000800000023000000250000005f0000005c0000005b0000004a00000049000000120000001a0000004b0000001c000000140000004c0000001b00000020000000260000005800000054000000220000002100000027000000570000005e0000001f000000150000001d0000004601000047010000480100004a0100004b010000490100004c010000450100004401000043010000420100004101000060000000610000005d000000
+    collisionMesh: {fileID: 0}
+    collisionBox:
+      m_Center: {x: -0.022019237, y: 0.57184917, z: 0.029454298}
+      m_Extent: {x: 0.18743227, y: 0.24033076, z: 0.17622685}
+    boxPosition: {x: 0, y: 0, z: 0}
+    boxRotation: {x: 0, y: 0, z: 0, w: 1}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 0
+  autoHullPreset: 1
+  vhacdParams:
+    concavity: 0.001
+    alpha: 0.05
+    beta: 0.05
+    minVolumePerCH: 0.0001
+    resolution: 100000
+    maxNumVerticesPerCH: 64
+    planeDownsampling: 4
+    convexhullDownsampling: 4
+    pca: 0
+    mode: 0
+    convexhullApproximation: 1
+    oclAcceleration: 0
+    maxConvexHulls: 1024
+    projectHullVertices: 1
+  hasLastVhacdTimings: 0
+  lastVhacdPreset: 1
+  lastVhacdDurationSecs: 0

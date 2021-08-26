@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1921550691584155994
+--- !u!1 &8632103188689625900
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1288425870850522080}
-  - component: {fileID: 2760340526706783301}
-  - component: {fileID: 119983503674179727}
-  - component: {fileID: 1615615778882231304}
-  - component: {fileID: 3762082722219562262}
-  - component: {fileID: 3316654036933189984}
+  - component: {fileID: 8971369130442422678}
+  - component: {fileID: 5417671078751499827}
+  - component: {fileID: 7839527173323162361}
+  - component: {fileID: 8865913987973357182}
+  - component: {fileID: 8702830117027353093}
+  - component: {fileID: 2110828032678332955}
+  - component: {fileID: 3494421590365928796}
+  - component: {fileID: 5903939223373521669}
+  - component: {fileID: 1420089272677867682}
   m_Layer: 0
-  m_Name: book01
+  m_Name: cinderstack01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1288425870850522080
+--- !u!4 &8971369130442422678
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
+  m_GameObject: {fileID: 8632103188689625900}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 7.338, y: 2, z: -8.28}
+  m_LocalPosition: {x: 5.7999997, y: 2, z: -8.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!33 &2760340526706783301
+--- !u!33 &5417671078751499827
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
-  m_Mesh: {fileID: -1550514412580984892, guid: 757fb68cf5bc447cf91257fda3c76643, type: 3}
---- !u!23 &119983503674179727
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Mesh: {fileID: 7807538432633192378, guid: 51541727161944419baef8755db2eea2, type: 3}
+--- !u!23 &7839527173323162361
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
+  m_GameObject: {fileID: 8632103188689625900}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -62,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6cf3f1ff6d5fd49848d98c664a7ae74a, type: 2}
+  - {fileID: 2100000, guid: 3b9452c1f726c42708d34b408e40fd1b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -84,13 +87,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1615615778882231304
+--- !u!54 &8865913987973357182
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
+  m_GameObject: {fileID: 8632103188689625900}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -100,26 +103,66 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3762082722219562262
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1506516, y: 0.20069931, z: 0.040481053}
-  m_Center: {x: -0.0049324445, y: 0.10191559, z: 0}
---- !u!114 &3316654036933189984
+--- !u!114 &8702830117027353093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1921550691584155994}
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86df15996814cff45aed711a3ccf2a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintingData: {fileID: 11400000, guid: f79d3492b351f498da14a98cf7f93471, type: 2}
+  hullData: {fileID: 11400000, guid: e741b2479771d47b99f064a8f2c00653, type: 2}
+--- !u!65 &2110828032678332955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1905935, y: 0.0562411, z: 0.41260028}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &3494421590365928796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20851886, y: 0.28386426, z: 0.35853034}
+  m_Center: {x: -0.43677872, y: -0.175329, z: 0}
+--- !u!65 &5903939223373521669
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632103188689625900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.20587742, y: 0.28386426, z: 0.35765272}
+  m_Center: {x: 0.45243222, y: -0.175329, z: 0}
+--- !u!114 &1420089272677867682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8632103188689625900}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb6e52f37bca2404fac00b69fd8d21f8, type: 3}
@@ -130,7 +173,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 5
+    materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1

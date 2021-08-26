@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de965f2e710c1c489ead8e62cd25da0, type: 3}
+  m_Name: cinderstack01 Painting Data
+  m_EditorClassIdentifier: 
+  hullData: {fileID: 11400000, guid: e741b2479771d47b99f064a8f2c00653, type: 2}
+  sourceMesh: {fileID: 7807538432633192378, guid: 51541727161944419baef8755db2eea2, type: 3}
+  activeHull: -1
+  faceThickness: 0.1
+  hulls:
+  - name: Table
+    isVisible: 1
+    type: 0
+    colour: {r: 0, g: 1, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 0b000000080000000c000000070000000600000005000000090000000a00000003000000040000000100000002000000
+    collisionMesh: {fileID: 0}
+    collisionBox:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.59529674, y: 0.02812055, z: 0.20630014}
+    boxPosition: {x: 0, y: 0, z: 0}
+    boxRotation: {x: 0, y: 0, z: 0, w: 1}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 0
+  - name: Blocks 1
+    isVisible: 1
+    type: 0
+    colour: {r: 1, g: 0, b: 1, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 4400000045000000740000006900000050000000790000006a00000075000000780000006b0000004f000000280000003a000000390000000f0000001000000016000000150000003b0000004e0000007b00000037000000430000004200000011000000120000006e000000760000007700000038000000700000006f0000006d0000004c0000004d0000000e0000000d00000013000000340000003300000014000000320000004700000046000000710000007200000048000000410000003f0000007a0000003e0000003d0000003c000000180000001900000017000000400000004a000000490000006600000051000000730000004b000000
+    collisionMesh: {fileID: 0}
+    collisionBox:
+      m_Center: {x: -0.43677872, y: -0.175329, z: 0}
+      m_Extent: {x: 0.10425943, y: 0.14193213, z: 0.17926517}
+    boxPosition: {x: 0, y: 0, z: 0}
+    boxRotation: {x: 0, y: 0, z: 0, w: 1}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 0
+  - name: Blocks 2
+    isVisible: 1
+    type: 0
+    colour: {r: 1, g: 1, b: 0, a: 0.7}
+    material: {fileID: 0}
+    enableInflation: 0
+    inflationAmount: 0.01
+    boxFitMethod: 1
+    isTrigger: 0
+    isChildCollider: 0
+    selectedFaces: 8500000084000000b4000000b50000007f0000007e000000b2000000a70000008e0000008f000000a9000000aa000000ab0000009500000097000000bf000000be00000080000000db000000da000000d9000000e5000000e4000000e6000000e7000000de000000ea000000eb000000c0000000e9000000e8000000a8000000b3000000830000008200000081000000a3000000a10000007c0000007d000000bc000000bd000000b7000000b6000000e1000000b8000000af000000b0000000b100000088000000ae000000ad000000ac000000860000008700000090000000b9000000ba00000092000000e0000000dd000000e2000000e3000000df000000bb000000a2000000a6000000
+    collisionMesh: {fileID: 0}
+    collisionBox:
+      m_Center: {x: 0.45243222, y: -0.175329, z: 0}
+      m_Extent: {x: 0.10293871, y: 0.14193213, z: 0.17882636}
+    boxPosition: {x: 0, y: 0, z: 0}
+    boxRotation: {x: 0, y: 0, z: 0, w: 1}
+    faceCollisionMesh: {fileID: 0}
+    faceBoxCenter: {x: 0, y: 0, z: 0}
+    faceBoxSize: {x: 0, y: 0, z: 0}
+    faceAsBoxRotation: {x: 0, y: 0, z: 0, w: 0}
+    autoMeshes: []
+    hasColliderError: 0
+    numColliderFaces: 0
+  autoHullPreset: 1
+  vhacdParams:
+    concavity: 0.001
+    alpha: 0.05
+    beta: 0.05
+    minVolumePerCH: 0.0001
+    resolution: 100000
+    maxNumVerticesPerCH: 64
+    planeDownsampling: 4
+    convexhullDownsampling: 4
+    pca: 0
+    mode: 0
+    convexhullApproximation: 1
+    oclAcceleration: 0
+    maxConvexHulls: 1024
+    projectHullVertices: 1
+  hasLastVhacdTimings: 0
+  lastVhacdPreset: 1
+  lastVhacdDurationSecs: 0
