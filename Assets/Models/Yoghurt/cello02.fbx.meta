@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2794348f2627f4adcbcea4d5aed77fc7
+guid: 7662364a94e2949dea339372f26de0da
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: cello02
-    second: {fileID: 2100000, guid: 46a674d6b2e4348948a4550e90755e17, type: 2}
+      name: Material.004
+    second: {fileID: 2100000, guid: ae9fd6f613ca54ee693ecf8ce44201bd, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: cello01
-    second: {fileID: 2800000, guid: 39ea65249e0954f70aebd2984d70192c, type: 3}
+      name: cello02
+    second: {fileID: 2800000, guid: b1b75e24fad584b1595cfe286bf89d84, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
