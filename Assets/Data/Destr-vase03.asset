@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5a939333196b40e9a852382fbb3dced, type: 3}
-  m_Name: Destr-plate01
+  m_Name: Destr-vase03
   m_EditorClassIdentifier: 
   mass: 0.85
   pointsForDestroying: 25
-  solidity: 0
+  solidity: 0.1
   destroySfx: {fileID: 0}
