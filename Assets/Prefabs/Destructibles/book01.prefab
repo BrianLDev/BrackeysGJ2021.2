@@ -130,7 +130,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 5
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -183,7 +183,7 @@ MonoBehaviour:
       removeCollinear: 1
       layer: 
     runtimeCaching:
-      type: 1
+      type: 0
       frames: 10
       fragments: 4
       skipFirstDemolition: 0

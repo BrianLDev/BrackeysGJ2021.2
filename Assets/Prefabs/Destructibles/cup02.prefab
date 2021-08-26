@@ -160,14 +160,14 @@ MonoBehaviour:
     tag: 
     depth: 1
     time: 0.2
-    size: 0.2
+    size: 0.15
     visible: 0
     sliceByBlade: 0
     bound:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 4
+    amount: 3
     variation: 10
     depthFade: 0.5
     contactBias: 0
@@ -178,12 +178,12 @@ MonoBehaviour:
     meshInput: 9
     properties:
       colliderType: 0
-      sizeFilter: 0.2
+      sizeFilter: 0.15
       decompose: 0
       removeCollinear: 1
       layer: 
     runtimeCaching:
-      type: 1
+      type: 0
       frames: 10
       fragments: 4
       skipFirstDemolition: 0
