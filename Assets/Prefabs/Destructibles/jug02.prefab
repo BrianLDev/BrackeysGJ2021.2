@@ -59,5 +59,9 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a456d688112264d35b69327f33bbb39e, type: 2}
+    - target: {fileID: 2097782465843811348, guid: 7c3a0651a36b74c4f85235e701df5ddc, type: 3}
+      propertyPath: meshDemolition.runtimeCaching.type
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c3a0651a36b74c4f85235e701df5ddc, type: 3}
