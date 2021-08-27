@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a939333196b40e9a852382fbb3dced, type: 3}
+  m_Name: Glass
+  m_EditorClassIdentifier: 
+  mass: 0.85
+  pointsForDestroying: 100
+  solidity: 0.1
+  destroySfx:
+  - {fileID: 8300000, guid: ef76aaccb77284355a6ba2cdd09d5f66, type: 3}
+  - {fileID: 8300000, guid: fe7131bb31e5e455d94c41542dcf095f, type: 3}
+  - {fileID: 8300000, guid: 99d20df10b0cf4d6d8284d183f974400, type: 3}
+  - {fileID: 8300000, guid: 406ce96525af24fc9826c1f46d68bf7f, type: 3}

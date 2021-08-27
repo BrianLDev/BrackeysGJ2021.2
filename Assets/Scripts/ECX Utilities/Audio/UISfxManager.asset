@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: UISfxManager
   m_EditorClassIdentifier: 
   mouseOver: {fileID: 0}
-  buttonClick: {fileID: 0}
+  buttonClicks:
+  - {fileID: 8300000, guid: af6fd02d0d8464219b699c61eef0c1a5, type: 3}
+  - {fileID: 8300000, guid: a6ecacfbc5ab24e99a5261e29f71faf9, type: 3}
+  - {fileID: 8300000, guid: 067a246afd07d423fbdc1b7bf86b2d0b, type: 3}
   errorSound: {fileID: 0}
