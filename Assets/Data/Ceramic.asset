@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a939333196b40e9a852382fbb3dced, type: 3}
+  m_Name: Ceramic
+  m_EditorClassIdentifier: 
+  mass: 1.7
+  pointsForDestroying: 50
+  solidity: 0.5
+  destroySfx:
+  - {fileID: 8300000, guid: 1104cb850d4d94e95b132feaaf58909a, type: 3}
+  - {fileID: 8300000, guid: c08a663d3ce3342409ac83765454bbca, type: 3}
+  - {fileID: 8300000, guid: cb04ba02250924d9f8ed6b9a2c7a3ef9, type: 3}
+  - {fileID: 8300000, guid: 189a49a5d1330494ebc38960ced06b9d, type: 3}
