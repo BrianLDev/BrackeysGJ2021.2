@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1430139289917476652
+--- !u!1 &6223827043534781905
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1770812645191718294}
-  - component: {fileID: 3403853952840833587}
-  - component: {fileID: 637290594576887545}
-  - component: {fileID: 919132148005768214}
-  - component: {fileID: 919132148005768213}
-  - component: {fileID: 919132148005768212}
-  - component: {fileID: 880785054118627664}
+  - component: {fileID: 6707171648760211307}
+  - component: {fileID: 7690866688482568398}
+  - component: {fileID: 5575321960968330244}
+  - component: {fileID: 6529674553827702670}
+  - component: {fileID: 3869114265565676600}
+  - component: {fileID: 3330312948551140098}
+  - component: {fileID: 6528974247914266003}
+  - component: {fileID: 1806270307420088117}
+  - component: {fileID: 5483798270888437676}
+  - component: {fileID: 360190616961883472}
+  - component: {fileID: 3539403048833311834}
+  - component: {fileID: 919132149309623822}
+  - component: {fileID: 6260554156092855815}
   m_Layer: 8
-  m_Name: computercase
+  m_Name: computerchair
   m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1770812645191718294
+--- !u!4 &6707171648760211307
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 7.928, y: 0.152, z: -7.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 7.893, y: 0.4, z: -6.907}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!33 &3403853952840833587
+--- !u!33 &7690866688482568398
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
-  m_Mesh: {fileID: -6699831691096785847, guid: 1b15eb026c4f74f9f8a5f9d316eefed2, type: 3}
---- !u!23 &637290594576887545
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Mesh: {fileID: 6131692080904377765, guid: 146cb3a1e007443bf88e84fa1eb92d51, type: 3}
+--- !u!23 &5575321960968330244
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -85,13 +91,13 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &919132148005768214
+--- !u!54 &6529674553827702670
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -101,39 +107,118 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &919132148005768213
+--- !u!114 &3869114265565676600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86df15996814cff45aed711a3ccf2a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paintingData: {fileID: 11400000, guid: 2c65cbd7d1bc24d62a5450a9d6b9dab1, type: 2}
+  hullData: {fileID: 11400000, guid: 06de78b1701fc4284aeaedce522b5fe2, type: 2}
+--- !u!65 &3330312948551140098
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.494137, y: 0.354788, z: 0.5291269}
-  m_Center: {x: -0.10730334, y: 0.01933577, z: 0.04834883}
---- !u!114 &919132148005768212
+  m_Size: {x: 0.48898798, y: 0.69561493, z: 0.069755286}
+  m_Center: {x: 0.000746727, y: 0.38652563, z: -0.08522621}
+--- !u!65 &6528974247914266003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.49126607, y: 0.051193032, z: 0.4276812}
+  m_Center: {x: 0.00038842112, y: 0.014796177, z: 0.083046675}
+--- !u!65 &1806270307420088117
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06876153, y: 0.40595365, z: 0.053285018}
+  m_Center: {x: -0.20010452, y: -0.2085273, z: 0.24312994}
+--- !u!65 &5483798270888437676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.059971094, y: 0.40595365, z: 0.053284973}
+  m_Center: {x: -0.20449974, y: -0.2085273, z: -0.07478194}
+--- !u!65 &360190616961883472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.05997102, y: 0.40595365, z: 0.053284973}
+  m_Center: {x: 0.20248348, y: -0.2085273, z: -0.07478194}
+--- !u!65 &3539403048833311834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223827043534781905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06876145, y: 0.40595365, z: 0.053285018}
+  m_Center: {x: 0.19808826, y: -0.2085273, z: 0.24312994}
+--- !u!114 &919132149309623822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 5051e538dd0f547c9a52dfffae6896fc, type: 2}
---- !u!114 &880785054118627664
+  data: {fileID: 11400000, guid: ecb3cb0b729b4494a93d3d64a3ed9eb7, type: 2}
+--- !u!114 &6260554156092855815
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430139289917476652}
+  m_GameObject: {fileID: 6223827043534781905}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb6e52f37bca2404fac00b69fd8d21f8, type: 3}
@@ -144,7 +229,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -197,7 +282,7 @@ MonoBehaviour:
       removeCollinear: 1
       layer: 
     runtimeCaching:
-      type: 0
+      type: 1
       frames: 10
       fragments: 4
       skipFirstDemolition: 0
