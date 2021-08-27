@@ -3,7 +3,17 @@ guid: a8fcf011088304307a18ef68bc3cceb0
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lowcup2
+    second: {fileID: 2100000, guid: 6c57989cc45fd4dc0859281c3ca6917c, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lowcup2t
+    second: {fileID: 2800000, guid: 1453eec9a1a4841b28b70f28e3b84eaa, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: f4f61a67fe9134bccb588000e20de29d
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wine2low
+    second: {fileID: 2100000, guid: 22ef6f89dee2a4d17bd516f6a044c0f4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: wine2low
+    second: {fileID: 2800000, guid: a6e3a1c853a174384a15f4028ae18289, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

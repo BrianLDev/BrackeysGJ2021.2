@@ -3,7 +3,17 @@ guid: bc8cac2547f944f73b5136612dc14b95
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sqtable
+    second: {fileID: 2100000, guid: b63458f00f5994b83b160c361d94993a, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: oldtable
+    second: {fileID: 2800000, guid: f3ee88c07b8e04add99359975094f287, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,17 @@ guid: 6b400d5d2e0f64b268084ad731359c6d
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chestlow
+    second: {fileID: 2100000, guid: 2a0c1c39bebb34e86af20d7345b14ade, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: chestlow
+    second: {fileID: 2800000, guid: 72468b1a994a845af956b727b4849498, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

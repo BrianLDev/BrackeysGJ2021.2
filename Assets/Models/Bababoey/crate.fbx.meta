@@ -3,7 +3,17 @@ guid: c8d00e65fa7a84ce7bba68e59534cb39
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cratelow
+    second: {fileID: 2100000, guid: 8f11ac05c138142809a4512f523913f4, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: cratelow
+    second: {fileID: 2800000, guid: 5ff527e83a3f2414bbe8874d3951dc91, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
