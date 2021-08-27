@@ -25,8 +25,16 @@ PrefabInstance:
       value: urn03
       objectReference: {fileID: 0}
     - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045741590509247281, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
+      propertyPath: m_TagString
+      value: Destructibles
       objectReference: {fileID: 0}
     - target: {fileID: 7677599464677147019, guid: c8e8f98996e2a4b7caec1db3392c8df8, type: 3}
       propertyPath: m_RootOrder

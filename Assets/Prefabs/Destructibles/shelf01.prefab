@@ -18,9 +18,9 @@ GameObject:
   - component: {fileID: 4598691255472754111}
   - component: {fileID: 1578282839751933213}
   - component: {fileID: 4813676443705258651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: shelf01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

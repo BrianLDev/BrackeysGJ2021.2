@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 8505465975112183592}
   - component: {fileID: 2078445496}
   - component: {fileID: 727203468}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vase02
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -19,9 +19,9 @@ GameObject:
   - component: {fileID: 3307516223647105325}
   - component: {fileID: 971863015036949091}
   - component: {fileID: 3686110647990938593}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cello02
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

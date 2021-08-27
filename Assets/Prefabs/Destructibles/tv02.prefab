@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 4555977580596462064}
   - component: {fileID: 4555977580596462066}
   - component: {fileID: 574243803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tv02
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

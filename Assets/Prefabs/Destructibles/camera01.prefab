@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 3756558062953583912}
   - component: {fileID: 8593413178821605778}
   - component: {fileID: 3194009552247275143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: camera01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

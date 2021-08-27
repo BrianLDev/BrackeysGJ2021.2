@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 819809704735362707}
   - component: {fileID: 3693472804793008804}
   - component: {fileID: 1726408184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pot01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

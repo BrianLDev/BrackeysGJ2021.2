@@ -36,6 +36,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: jug03
       objectReference: {fileID: 0}
+    - target: {fileID: 6172356350676088466, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172356350676088466, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
+      propertyPath: m_TagString
+      value: Destructibles
+      objectReference: {fileID: 0}
     - target: {fileID: 6837394186700647464, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
       propertyPath: m_RootOrder
       value: 0

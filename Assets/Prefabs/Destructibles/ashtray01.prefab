@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 913671108328607261}
   - component: {fileID: 913671108328607259}
   - component: {fileID: 939116852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ashtray01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
