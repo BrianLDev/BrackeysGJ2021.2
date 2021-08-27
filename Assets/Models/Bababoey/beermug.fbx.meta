@@ -10,10 +10,15 @@ ModelImporter:
       name: Material.002
     second: {fileID: 2100000, guid: e96781516204448279ceece130190d87, type: 2}
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: d83fb9ee3208e405c8a57ff05a9f0a66, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: ImphenziaPalette01
-    second: {fileID: 2800000, guid: ba302efb2e9714a768dcc12696397442, type: 3}
+    second: {fileID: 2800000, guid: a56886acd5ccd4a358d5200bb668b45f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
