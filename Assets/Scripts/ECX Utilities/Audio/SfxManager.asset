@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ff59fbb2b7441bc9732677e1efc538, type: 3}
   m_Name: SfxManager
   m_EditorClassIdentifier: 
-  victoryStinger: {fileID: 8300000, guid: 5cb2f99085ad84a6e8c121c6174e617b, type: 3}
-  defeatStinger: {fileID: 0}
   boxDrops:
   - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
   - {fileID: 8300000, guid: c22de2de2bb824c99b2617931de1e610, type: 3}
@@ -34,6 +32,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c08a663d3ce3342409ac83765454bbca, type: 3}
   - {fileID: 8300000, guid: cb04ba02250924d9f8ed6b9a2c7a3ef9, type: 3}
   - {fileID: 8300000, guid: 189a49a5d1330494ebc38960ced06b9d, type: 3}
+  woodBreaks: []
+  coins:
+  - {fileID: 8300000, guid: 0977593af193746bebea9d973659f225, type: 3}
+  - {fileID: 8300000, guid: e2b7b7fac4d1248a38dc0da1e93ef6c5, type: 3}
+  - {fileID: 8300000, guid: 6d33f5e0764564150a10f14f702488ef, type: 3}
+  - {fileID: 8300000, guid: 793c0f6b7f4d9474998917693903c04a, type: 3}
+  cashRegister: {fileID: 8300000, guid: 911eed12bfbdc4c6b94ef6c6dc02abe5, type: 3}
   footsteps:
   - {fileID: 8300000, guid: 1d9526a58b00d4c998b0c1c3824204b9, type: 3}
   - {fileID: 8300000, guid: d3061f26ac83e4757b745d6498296097, type: 3}

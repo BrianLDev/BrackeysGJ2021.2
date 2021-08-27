@@ -15,15 +15,15 @@ namespace EcxUtilities {
     /// </summary>
     [CreateAssetMenu(fileName = "SfxManager-X", menuName = "ECX Utilities/SfxManager", order = 1)] 
     public class SfxManager : ScriptableObject {
-        [Header("Win/Loss Stingers")]
-        public AudioClip victoryStinger;
-        public AudioClip defeatStinger;
-
-        [Header("Custom SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
+        [Header("Destructible SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
         public AudioClip[] boxDrops;
         public AudioClip[] glassBreaks;
         public AudioClip[] glassDrops;
         public AudioClip[] jarBreaks;
+        public AudioClip[] woodBreaks;
+        public AudioClip[] coins;
+        public AudioClip cashRegister;
+        [Header("Player SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
         public AudioClip[] footsteps;
 
         // METHODS:

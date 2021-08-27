@@ -15,3 +15,5 @@ MonoBehaviour:
   mainMenuMusic: {fileID: 8300000, guid: ff34c817aa3ee4f07b9302fee763c6a8, type: 3}
   gameMusic: {fileID: 8300000, guid: 95d93c0d0bc694a3da5f189237ccc46f, type: 3}
   gameOverMusic: {fileID: 8300000, guid: 5cb2f99085ad84a6e8c121c6174e617b, type: 3}
+  victoryStinger: {fileID: 8300000, guid: 5cb2f99085ad84a6e8c121c6174e617b, type: 3}
+  defeatStinger: {fileID: 8300000, guid: 3727188bc677f4a92a6c65535756d8eb, type: 3}
