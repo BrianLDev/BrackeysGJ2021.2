@@ -14,7 +14,7 @@ public class DestructibleData : ScriptableObject {
     [Tooltip("Resistance to being destroyed. Default = 0.1 (glasslike) to max = 10 (adamantium)")]
     public float solidity;
     [Tooltip("The SFX clip played when object is destroyed")]
-    public AudioClip destroySfx;
+    public AudioClip[] destroySfx;
     // If we need to track any other destructible varialbes, add them here
 
 }
