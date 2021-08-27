@@ -19,8 +19,12 @@ namespace EcxUtilities {
         public AudioClip victoryStinger;
         public AudioClip defeatStinger;
 
-        // [Header("Custom SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
-
+        [Header("Custom SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
+        public AudioClip[] boxDrops;
+        public AudioClip[] glassBreaks;
+        public AudioClip[] glassDrops;
+        public AudioClip[] jarBreaks;
+        public AudioClip[] footsteps;
 
         // METHODS:
         // THE AUDIOMANAGER WILL HANDLE PLAYING MOST OF THE CLIPS, BUT IF YOU HAVE ANY CUSTOM SFX METHODS NEEDED, ADD THEM BELOW AS PUBLIC METHODS

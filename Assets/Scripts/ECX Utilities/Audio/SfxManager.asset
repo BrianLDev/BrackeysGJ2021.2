@@ -12,5 +12,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6ff59fbb2b7441bc9732677e1efc538, type: 3}
   m_Name: SfxManager
   m_EditorClassIdentifier: 
-  victoryStinger: {fileID: 0}
+  victoryStinger: {fileID: 8300000, guid: 5cb2f99085ad84a6e8c121c6174e617b, type: 3}
   defeatStinger: {fileID: 0}
+  boxDrops:
+  - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
+  - {fileID: 8300000, guid: c22de2de2bb824c99b2617931de1e610, type: 3}
+  - {fileID: 8300000, guid: 82ab3ecc214df4facb5f321b3571835b, type: 3}
+  - {fileID: 8300000, guid: 29018c584e539414d92eaec1106613ba, type: 3}
+  - {fileID: 8300000, guid: de4b824a0905b43009504dd987140be0, type: 3}
+  - {fileID: 8300000, guid: be3dc81e3519c4c60b702de0d9555623, type: 3}
+  - {fileID: 8300000, guid: 1450db4f5a6ab4ea08325b195e65a261, type: 3}
+  - {fileID: 8300000, guid: 5ddf064c1c02c429e8cb91007e254f24, type: 3}
+  glassBreaks:
+  - {fileID: 8300000, guid: ef76aaccb77284355a6ba2cdd09d5f66, type: 3}
+  - {fileID: 8300000, guid: fe7131bb31e5e455d94c41542dcf095f, type: 3}
+  glassDrops:
+  - {fileID: 8300000, guid: 99d20df10b0cf4d6d8284d183f974400, type: 3}
+  - {fileID: 8300000, guid: 406ce96525af24fc9826c1f46d68bf7f, type: 3}
+  jarBreaks:
+  - {fileID: 8300000, guid: 1104cb850d4d94e95b132feaaf58909a, type: 3}
+  - {fileID: 8300000, guid: c08a663d3ce3342409ac83765454bbca, type: 3}
+  - {fileID: 8300000, guid: cb04ba02250924d9f8ed6b9a2c7a3ef9, type: 3}
+  - {fileID: 8300000, guid: 189a49a5d1330494ebc38960ced06b9d, type: 3}
+  footsteps:
+  - {fileID: 8300000, guid: 1d9526a58b00d4c998b0c1c3824204b9, type: 3}
+  - {fileID: 8300000, guid: d3061f26ac83e4757b745d6498296097, type: 3}
+  - {fileID: 8300000, guid: ae314a5bed5444650842a12063656869, type: 3}
+  - {fileID: 8300000, guid: d5d48b92b282d44aa88903f9e9004f8b, type: 3}
+  - {fileID: 8300000, guid: a36406574228e4e22945d848a25551e4, type: 3}
+  - {fileID: 8300000, guid: 414580f34821e4667b6048ce90a0fd32, type: 3}
+  - {fileID: 8300000, guid: aa7c4b6d7db4b41a6b74f82befb86a7f, type: 3}
+  - {fileID: 8300000, guid: 3e3b7a00892534b8f8728a749d883786, type: 3}
+  - {fileID: 8300000, guid: f290611ae0769445f9dda00f04db4f65, type: 3}
+  - {fileID: 8300000, guid: 3b11dc12dd1e545988450edf04c40bb5, type: 3}
+  - {fileID: 8300000, guid: 1f040ae5a1539427cb0777672da51dd0, type: 3}

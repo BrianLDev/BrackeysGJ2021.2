@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 2679382411072848126}
   - component: {fileID: 995956745}
   - component: {fileID: 255092644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: vase03
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,4 +308,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: 6c921ec7ad8f04e8d84dc43209cb2bf8, type: 2}

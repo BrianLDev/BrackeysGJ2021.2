@@ -18,9 +18,9 @@ GameObject:
   - component: {fileID: 5903939223373521669}
   - component: {fileID: 1420089272677867682}
   - component: {fileID: 6685265135043843738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cinderstack01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

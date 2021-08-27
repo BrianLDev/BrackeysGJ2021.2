@@ -2442,6 +2442,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6400832180530883029, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.1296387
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6400832181479536938, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2530,5 +2550,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 6400832181537261100, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181537261100, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181537261100, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832181537261100, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832182524655945, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832182524655945, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832182524655945, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832182524655945, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+--- !u!1 &6400832181529040955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6400832181479536950, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+  m_PrefabInstance: {fileID: 6400832181529040954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6400832181529040956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6400832181529040955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ed1d1c76b774e0e88541dd7e95f72e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6400832181529040957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6400832181529040955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66506a48d51644931a628e74056658bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuCanvas: {fileID: 0}
+  gameHudCanvas: {fileID: 0}
+  optionsMenuCanvas: {fileID: 0}
+  gameOverScreenCanvas: {fileID: 0}
+  canvasList: []
+  currentCanvas: {fileID: 0}
+  audioManager: {fileID: 0}
+  isOptionsUIVisible: 0

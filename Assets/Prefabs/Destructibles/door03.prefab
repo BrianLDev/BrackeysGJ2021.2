@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 8967837908444777751}
   - component: {fileID: 8402767934267010733}
   - component: {fileID: 1202867977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: door03
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
