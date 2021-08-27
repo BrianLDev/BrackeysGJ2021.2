@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: meshDemolition.runtimeCaching.type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5658821588100346321, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 66d1f255efa5d4131add1d40ba907521, type: 2}
     - target: {fileID: 5667886877282342727, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -37,7 +41,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6837394186700647464, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.334
+      value: 3.683
       objectReference: {fileID: 0}
     - target: {fileID: 6837394186700647464, guid: 776ce5b434e2f4eab801015f9a7915b8, type: 3}
       propertyPath: m_LocalPosition.y

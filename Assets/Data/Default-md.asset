@@ -10,17 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5a939333196b40e9a852382fbb3dced, type: 3}
-  m_Name: Default
+  m_Name: Default-md
   m_EditorClassIdentifier: 
-  mass: 0.85
-  pointsForDestroying: 25
-  solidity: 2
+  mass: 2.5
+  pointsForDestroying: 50
+  solidity: 0.75
   destroySfx:
   - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
   - {fileID: 8300000, guid: c22de2de2bb824c99b2617931de1e610, type: 3}
   - {fileID: 8300000, guid: 82ab3ecc214df4facb5f321b3571835b, type: 3}
   - {fileID: 8300000, guid: 29018c584e539414d92eaec1106613ba, type: 3}
   - {fileID: 8300000, guid: de4b824a0905b43009504dd987140be0, type: 3}
-  - {fileID: 8300000, guid: be3dc81e3519c4c60b702de0d9555623, type: 3}
-  - {fileID: 8300000, guid: 1450db4f5a6ab4ea08325b195e65a261, type: 3}
-  - {fileID: 8300000, guid: 5ddf064c1c02c429e8cb91007e254f24, type: 3}

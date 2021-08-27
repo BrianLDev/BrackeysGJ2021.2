@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a939333196b40e9a852382fbb3dced, type: 3}
+  m_Name: Default-lg
+  m_EditorClassIdentifier: 
+  mass: 5
+  pointsForDestroying: 100
+  solidity: 1
+  destroySfx:
+  - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
+  - {fileID: 8300000, guid: c22de2de2bb824c99b2617931de1e610, type: 3}
+  - {fileID: 8300000, guid: 82ab3ecc214df4facb5f321b3571835b, type: 3}
+  - {fileID: 8300000, guid: 29018c584e539414d92eaec1106613ba, type: 3}
+  - {fileID: 8300000, guid: de4b824a0905b43009504dd987140be0, type: 3}

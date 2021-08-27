@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using EcxUtilities;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 using TMPro;
 
 public class ScoreManager : SingletonScoring<ScoreManager> {
