@@ -1,7 +1,7 @@
 ﻿/*
 ECX UTILITY SCRIPTS
 Audio Manager (Singleton)
-Last updated: August 26, 2021
+Last updated: August 27, 2021
 */
 
 using System.Collections;
@@ -216,8 +216,17 @@ namespace EcxUtilities {
         /// <param name="maxIndex"></param>
         /// <returns></returns>
         public static AudioClip GetRandomClip(AudioClip[] audioClipArray, int minIndex=0, int maxIndex=999) {
-            int randomClipNum = Random.Range(minIndex+1, Mathf.Min(audioClipArray.Length, maxIndex)) - 1;
-            return audioClipArray[randomClipNum];
+            if (audioClipArray.Length<=0) {
+                Debug.LogError("Error: audioClipArray has no size.");
+                return AudioClip.Create("dead air", 0, 0, 0, false);    // this will throw an error that will help find the problem gameObject
+            }
+            else {
+                minIndex = Mathf.Clamp(minIndex, 0, maxIndex-1);
+                maxIndex = Mathf.Min(maxIndex, audioClipArray.Length);
+                maxIndex = Mathf.Clamp(maxIndex, minIndex+1, maxIndex);
+                int randomClipNum = Random.Range(minIndex, maxIndex);
+                return audioClipArray[randomClipNum];
+            }
         }
 
         /// <summary>
@@ -229,8 +238,17 @@ namespace EcxUtilities {
         /// <param name="maxIndex"></param>
         /// <returns></returns>
         public static AudioClip GetRandomClip(List<AudioClip> audioClipList, int minIndex=0, int maxIndex=999) {
-            int randomClipNum = Random.Range(minIndex+1, Mathf.Min(audioClipList.Count, maxIndex)) - 1;
-            return audioClipList[randomClipNum];
+            if (audioClipList.Count<=0) {
+                Debug.LogError("Error: audioClipList has no size.");
+                return AudioClip.Create("dead air", 0, 0, 0, false);    // this will throw an error that will help find the problem gameObject
+            }
+            else {
+                minIndex = Mathf.Clamp(minIndex, 0, maxIndex-1);
+                maxIndex = Mathf.Min(maxIndex, audioClipList.Count);
+                maxIndex = Mathf.Clamp(maxIndex, minIndex+1, maxIndex);
+                int randomClipNum = Random.Range(minIndex, maxIndex);
+                return audioClipList[randomClipNum];
+            }
         }
 
 
