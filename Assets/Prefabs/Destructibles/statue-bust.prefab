@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3825916083116953030}
   - component: {fileID: 4795595961335340651}
   - component: {fileID: 8689130073710590304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: statue-bust
   m_TagString: Destructibles
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 485382737945197636}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.97, y: 2, z: -8.48}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 3
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -181,7 +181,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 5
+    amount: 13
     variation: 10
     depthFade: 0.5
     contactBias: 0
