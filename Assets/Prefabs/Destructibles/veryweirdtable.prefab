@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5020792272507693376}
   - component: {fileID: 867147227636700184}
   - component: {fileID: 4503843046434754045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: veryweirdtable
   m_TagString: Destructibles
   m_Icon: {fileID: 0}
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 5941908792740744551}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 8.741, y: 2, z: -6.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

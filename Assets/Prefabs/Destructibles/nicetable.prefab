@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4600749514586250447}
   - component: {fileID: 2884021333868827829}
   - component: {fileID: 6389558187053471481}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: nicetable
   m_TagString: Destructibles
   m_Icon: {fileID: 0}

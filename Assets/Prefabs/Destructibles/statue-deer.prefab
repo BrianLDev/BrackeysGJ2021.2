@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7808495171733013957}
   - component: {fileID: 1996166415909215898}
   - component: {fileID: 1812973735647227415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: statue-deer
   m_TagString: Destructibles
   m_Icon: {fileID: 0}
@@ -32,7 +32,7 @@ Transform:
   m_GameObject: {fileID: 5744709887943668643}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 3.25, y: 2, z: -6.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 3
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1
@@ -195,7 +195,7 @@ MonoBehaviour:
       m_Center: {x: 0, y: 0, z: 0}
       m_Extent: {x: 0, y: 0, z: 0}
   meshDemolition:
-    amount: 5
+    amount: 13
     variation: 10
     depthFade: 0.5
     contactBias: 0
