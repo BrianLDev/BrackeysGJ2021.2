@@ -23,6 +23,10 @@ namespace EcxUtilities {
         public AudioClip mainMenuMusic;
         public AudioClip gameMusic;
         public AudioClip gameOverMusic;
+        
+        [Header("Win/Loss Stingers")]
+        public AudioClip victoryStinger;
+        public AudioClip defeatStinger;
 
         // [Header("Game Specific Music Tracks")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
 

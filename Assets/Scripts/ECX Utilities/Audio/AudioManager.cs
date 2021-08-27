@@ -1,13 +1,12 @@
 ﻿/*
 ECX UTILITY SCRIPTS
 Audio Manager (Singleton)
-Last updated: June 18, 2021
+Last updated: August 26, 2021
 */
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 
 namespace EcxUtilities {
@@ -209,41 +208,29 @@ namespace EcxUtilities {
         }
 
         /// <summary>
-        /// Plays a random clip from an array of clips, at a random pitch. (volume and pitch inputs are optional)
+        /// Returns a random AudioClip from an array of AudioClips.
+        /// optional: minIndex(inclusive), maxIndex(exclusive)
         /// </summary>
-        /// <param name="clips"></param>
-        /// <param name="ac"></param>
-        /// <param name="volume"></param>
-        /// <param name="pitchMin"></param>
-        /// <param name="pitchMax"></param>
-        public void PlayRandomClip(AudioClip[] clips, AudioCategory ac, float volume=1, float pitchMin=1, float pitchMax=1) {
-            if(clips.Length!=0) { 
-                float pitch = Random.Range(pitchMin, pitchMax);
-                int clipIndex = Random.Range(0,clips.Length);
-                PlayClip(clips[clipIndex], ac, volume, pitch);
-            } else {
-                Debug.Log("Can't play: clips array is empty. Skipping.");  
-                return; 
-            }
+        /// <param name="audioClipArray"></param>
+        /// <param name="minIndex"></param>
+        /// <param name="maxIndex"></param>
+        /// <returns></returns>
+        public static AudioClip GetRandomClip(AudioClip[] audioClipArray, int minIndex=0, int maxIndex=999) {
+            int randomClipNum = Random.Range(minIndex+1, Mathf.Min(audioClipArray.Length, maxIndex)) - 1;
+            return audioClipArray[randomClipNum];
         }
 
         /// <summary>
-        /// Plays a random clip from a List of clips, at a random pitch. Pitch inputs are optional.
+        /// Returns a random AudioClip from a list of AudioClips.
+        /// optional: minIndex(inclusive), maxIndex(exclusive)
         /// </summary>
-        /// <param name="clips"></param>
-        /// <param name="ac"></param>
-        /// <param name="volume"></param>
-        /// <param name="pitchMin"></param>
-        /// <param name="pitchMax"></param>
-        public void PlayRandomClip(List<AudioClip> clips, AudioCategory ac, float volume=1, float pitchMin=1, float pitchMax=1) {
-            if(clips.Count!=0) { 
-                float pitch = Random.Range(pitchMin, pitchMax);
-                int clipIndex = Random.Range(0,clips.Count);
-                PlayClip(clips[clipIndex], ac, volume, pitch);
-            } else {
-                Debug.LogError("Can't play: clips array is empty. Skipping.");  
-                return; 
-            }
+        /// <param name="audioClipList"></param>
+        /// <param name="minIndex"></param>
+        /// <param name="maxIndex"></param>
+        /// <returns></returns>
+        public static AudioClip GetRandomClip(List<AudioClip> audioClipList, int minIndex=0, int maxIndex=999) {
+            int randomClipNum = Random.Range(minIndex+1, Mathf.Min(audioClipList.Count, maxIndex)) - 1;
+            return audioClipList[randomClipNum];
         }
 
 
