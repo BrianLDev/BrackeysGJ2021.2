@@ -31,6 +31,5 @@ public class CowInputs : MonoBehaviour
     void Update()
     {
         dash = playerInput.actions[s_dash].WasPressedThisFrame();
-        Debug.Log(dash);
     }
 }

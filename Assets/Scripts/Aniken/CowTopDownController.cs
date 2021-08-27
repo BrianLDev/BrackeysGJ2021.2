@@ -15,7 +15,7 @@ public class CowTopDownController : MonoBehaviour
 
     [Space(10)]
     [Tooltip("Time required to pass before being able to dash again. Set to 0f to instantly dash again")]
-    public float DashTimeout = 2.0f;
+    public float DashTimeout = 3.0f;
 
     private CowInputs _input;
     private Rigidbody _rb;
@@ -26,6 +26,8 @@ public class CowTopDownController : MonoBehaviour
 
     private float _dashTimeoutDelta;
     private float _rotationVelocity;
+    private float _dashCount = 3;
+    private bool _allDashes;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +35,7 @@ public class CowTopDownController : MonoBehaviour
         _input = GetComponent<CowInputs>();
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
+        _allDashes = true;
     }
 
     // Update is called once per frame
@@ -67,16 +70,37 @@ public class CowTopDownController : MonoBehaviour
 
     private void Dash()
     {
-        if (_input.dash && _dashTimeoutDelta <= 0.0f && state == PlayerState.MOVEMENT)
+        if (_input.dash && _dashCount > 0 && state == PlayerState.MOVEMENT)
         {
-            _dashTimeoutDelta = DashTimeout;
             state = PlayerState.DASH;
+            --_dashCount;
+            GameManager.Instance.gameplayUI.removeDash();
             StartCoroutine(DashCoroutine());
 
         }
+
         if (_dashTimeoutDelta >= 0.0f)
         {
             _dashTimeoutDelta -= Time.deltaTime;
+        }
+        else
+        {
+            if(!_allDashes)
+            {
+                ++_dashCount;
+                GameManager.Instance.gameplayUI.RestoreDash();
+
+            }
+            if (_dashCount < 3)
+            {
+                _dashTimeoutDelta = DashTimeout;
+                GameManager.Instance.gameplayUI.clockAnim.SetTrigger("CoutDown");
+                _allDashes = false;
+            }
+            else
+            {
+                _allDashes = true;
+            }
         }
     }
 
