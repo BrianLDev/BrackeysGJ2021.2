@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 2760340526706783301}
   - component: {fileID: 119983503674179727}
   - component: {fileID: 1615615778882231304}
-  - component: {fileID: 3762082722219562262}
+  - component: {fileID: 7882454726921160211}
   - component: {fileID: 3316654036933189984}
   - component: {fileID: 1726634245631193223}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: book01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,7 +43,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921550691584155994}
-  m_Mesh: {fileID: -1550514412580984892, guid: 757fb68cf5bc447cf91257fda3c76643, type: 3}
+  m_Mesh: {fileID: -5053925668127403250, guid: 757fb68cf5bc447cf91257fda3c76643, type: 3}
 --- !u!23 &119983503674179727
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6cf3f1ff6d5fd49848d98c664a7ae74a, type: 2}
+  - {fileID: 2100000, guid: 4d4e503b1e6824859914a103c22656a6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3762082722219562262
+--- !u!65 &7882454726921160211
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,8 +112,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1506516, y: 0.20069931, z: 0.040481053}
-  m_Center: {x: -0.0049324445, y: 0.10191559, z: 0}
+  m_Size: {x: 0.15, y: 0.2, z: 0.045}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3316654036933189984
 MonoBehaviour:
   m_ObjectHideFlags: 0

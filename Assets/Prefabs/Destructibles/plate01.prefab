@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 4438749816126667164}
   - component: {fileID: 1834504977}
   - component: {fileID: 1426745213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,9 +317,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4184725921404690034}
     m_Modifications:
+    - target: {fileID: 1223938484763667158, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537550636867988400, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633905363708630884, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8992729366529332485, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9020168400425920161, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
       propertyPath: m_Name
       value: plate01-destroyed
+      objectReference: {fileID: 0}
+    - target: {fileID: 9020168400425920161, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9020168400425920161, guid: 0a01199be78df4b2d8d2ec92033db30c, type: 3}
       propertyPath: m_IsActive

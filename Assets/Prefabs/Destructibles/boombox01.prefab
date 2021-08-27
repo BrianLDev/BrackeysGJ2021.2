@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6152227826404556112}
   - component: {fileID: 919132147556559978}
   - component: {fileID: 48399095203597318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boombox01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

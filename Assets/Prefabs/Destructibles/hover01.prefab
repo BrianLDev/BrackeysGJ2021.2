@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 2659052387266748864}
   - component: {fileID: 1903739596}
   - component: {fileID: 1309160832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: hover01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

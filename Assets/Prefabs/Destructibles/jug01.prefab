@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 4304637750568551731}
   - component: {fileID: 2097782465843811348}
   - component: {fileID: 1312474234749930267}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: jug01
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
