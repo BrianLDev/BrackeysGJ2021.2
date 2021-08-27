@@ -9,7 +9,7 @@ public class ShatterSounds : MonoBehaviour
   List<AudioSource> srcs = new List<AudioSource>();
   public AudioClip[] defaultSounds;
 
-  void Start()
+  void Start() 
   {
     RFDemolitionEvent.GlobalEvent += GlobalEvented;
 

@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 8410728243871062397}
   - component: {fileID: 7220403696943044972}
   - component: {fileID: 33839755843523607}
-  - component: {fileID: 919132148940780197}
   - component: {fileID: 9184984341924895051}
+  - component: {fileID: 919132148940780197}
   m_Layer: 8
   m_Name: lamp01
   m_TagString: Destructibles
@@ -157,19 +157,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.15, y: 0.12, z: 0.15}
   m_Center: {x: 0, y: 0.51, z: 0}
---- !u!114 &919132148940780197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3532876153008975007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: {fileID: 0}
 --- !u!114 &9184984341924895051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,3 +339,16 @@ MonoBehaviour:
   restriction: {fileID: 0}
   sound: {fileID: 0}
   rigidRoot: {fileID: 0}
+--- !u!114 &919132148940780197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3532876153008975007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ad232cecc41443aebc7abb2fa3eddd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 4be09fbe072c448549f5962f9c6aa337, type: 2}
