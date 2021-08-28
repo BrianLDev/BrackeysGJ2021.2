@@ -11,6 +11,10 @@ public class MainMenuUI : MonoBehaviour
 
     public GameObject credit;
 
+    public Slider sfxSlider;
+
+    public Slider MusicSlider;
+
     private PlayerInput _input;
 
     void Awake()
