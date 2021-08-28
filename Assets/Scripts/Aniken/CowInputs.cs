@@ -9,9 +9,11 @@ public class CowInputs : MonoBehaviour
     public Vector2 look { get; private set;}
     public Vector2 rotate { get; private set;}
     public bool dash { get; private set;}
+    public bool pause { get; private set; }
     public PlayerInput playerInput;
 
     private string s_dash = "Dash";
+    private string s_pause = "Pause";
 
     void Awake()
     {
@@ -31,5 +33,6 @@ public class CowInputs : MonoBehaviour
     void Update()
     {
         dash = playerInput.actions[s_dash].WasPressedThisFrame();
+        pause = playerInput.actions[s_pause].WasPerformedThisFrame();
     }
 }

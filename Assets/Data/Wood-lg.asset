@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mass: 5
   pointsForDestroying: 100
-  solidity: 1
+  solidity: 3
   destroySfx:
   - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
   - {fileID: 8300000, guid: c22de2de2bb824c99b2617931de1e610, type: 3}

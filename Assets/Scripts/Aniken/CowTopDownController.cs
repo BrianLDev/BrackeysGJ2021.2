@@ -17,6 +17,9 @@ public class CowTopDownController : MonoBehaviour
     [Tooltip("Time required to pass before being able to dash again. Set to 0f to instantly dash again")]
     public float DashTimeout = 3.0f;
 
+    [Header("PauseUI")]
+    public GameObject PauseUI;
+
     private CowInputs _input;
     private Rigidbody _rb;
     private Animator _anim;
@@ -44,6 +47,7 @@ public class CowTopDownController : MonoBehaviour
         CalculateRotation();
         Dash();
         Move();
+        Pause();
     }
 
     private void Move()
@@ -70,7 +74,7 @@ public class CowTopDownController : MonoBehaviour
 
     private void Dash()
     {
-        if (_input.dash && _dashCount > 0 && state == PlayerState.MOVEMENT)
+        if (_input.dash && _dashCount > 0 && !GameManager.Instance.pause &&state == PlayerState.MOVEMENT)
         {
             state = PlayerState.DASH;
             --_dashCount;
@@ -121,5 +125,24 @@ public class CowTopDownController : MonoBehaviour
     private float AngleBetweenTwoPoints(Vector3 a, Vector3 b)
     {
         return 180 - Mathf.Atan2(a.y - b.y, a.x - b.x) * Mathf.Rad2Deg;
+    }
+
+    private void Pause()
+    {
+        if (_input.pause)
+        {
+            if (!GameManager.Instance.pause)
+            {
+                Time.timeScale = 0;
+                PauseUI.SetActive(true);
+                GameManager.Instance.pause = true;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                PauseUI.SetActive(false);
+                GameManager.Instance.pause = false;
+            }
+        }
     }
 }
