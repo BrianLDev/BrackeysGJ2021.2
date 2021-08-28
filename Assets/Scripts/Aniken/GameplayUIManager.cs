@@ -25,6 +25,7 @@ public class GameplayUIManager : MonoBehaviour
     public Queue<int> dashIndexs;
 
     private float _timer;
+    private float _currentScore;
 
     void Awake()
     {
@@ -43,6 +44,15 @@ public class GameplayUIManager : MonoBehaviour
         Timer();
         GameManager.Instance.score += 1;
         setScore(GameManager.Instance.score);
+        if(_currentScore < GameManager.Instance.score)
+        {
+            _currentScore += 10;
+            SetScoreText();
+        }
+        else
+        {
+            _currentScore = GameManager.Instance.score;
+        }
 
     }
 
@@ -60,7 +70,7 @@ public class GameplayUIManager : MonoBehaviour
             timerText.text = "00:00";
             if (!GameManager.Instance.gameOver)
             {
-                Debug.Log("Hi");
+                _currentScore = GameManager.Instance.score;
                 GameManager.Instance.GameOver();
             }
         }
@@ -70,7 +80,11 @@ public class GameplayUIManager : MonoBehaviour
     public void setScore(int score)
     {
         GameManager.Instance.score = score;
-        scoreText.text ="$ " + GameManager.Instance.score.ToString("##,#");
+    }
+
+    public void SetScoreText()
+    {
+        scoreText.text = "$ " + _currentScore.ToString("##,#");
     }
 
     public void removeDash()

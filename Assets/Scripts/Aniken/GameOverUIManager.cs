@@ -32,7 +32,7 @@ public class GameOverUIManager : MonoBehaviour
 
     public void updateTotal(int amount)
     {
-        total.text = amount.ToString("##,#");
+        total.text = "$" + amount.ToString("##,#");
     }
 
     public void RestartGame()
