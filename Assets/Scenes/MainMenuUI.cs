@@ -20,17 +20,9 @@ public class MainMenuUI : MonoBehaviour
 
     void Update()
     {
-        if(_input.actions["Back"].WasPerformedThisFrame())
+        if(_input.actions["Back"].WasPerformedThisFrame() && credit.activeSelf)
         {
-            if(setting.activeSelf)
-            {
-                setting.SetActive(false);
-            }
-
-            if(credit.activeSelf)
-            {
-                credit.SetActive(false);
-            }
+            credit.SetActive(false);
         }
     }
 
@@ -47,6 +39,11 @@ public class MainMenuUI : MonoBehaviour
     public void Setting()
     {
         setting.SetActive(true);
+    }
+
+    public void CloseSetting()
+    {
+        setting.SetActive(false);
     }
 
     public void Quit()
