@@ -42,8 +42,6 @@ public class GameplayUIManager : MonoBehaviour
     void Update()
     {
         Timer();
-        GameManager.Instance.score += 1;
-        setScore(GameManager.Instance.score);
         if(_currentScore < GameManager.Instance.score)
         {
             _currentScore += 10;

@@ -16,7 +16,7 @@ public class Destructible : MonoBehaviour {
     }
 
     void DestroyMe(RayfireRigid rigid) {
-        ScoreManager.Instance.ChangeScore(data.pointsForDestroying);
+        GameManager.Instance.score += data.pointsForDestroying;
         AudioManager.Instance.PlayClip(
             AudioManager.GetRandomClip(data.destroySfx), 
             AudioCategory.Sfx, 
