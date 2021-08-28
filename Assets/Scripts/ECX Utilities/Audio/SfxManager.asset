@@ -44,6 +44,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 6d33f5e0764564150a10f14f702488ef, type: 3}
   - {fileID: 8300000, guid: 793c0f6b7f4d9474998917693903c04a, type: 3}
   cashRegister: {fileID: 8300000, guid: 911eed12bfbdc4c6b94ef6c6dc02abe5, type: 3}
+  allBroken: {fileID: 8300000, guid: 7303be7fda3154a2296465c6025a244b, type: 3}
   footsteps:
   - {fileID: 8300000, guid: 1d9526a58b00d4c998b0c1c3824204b9, type: 3}
   - {fileID: 8300000, guid: d3061f26ac83e4757b745d6498296097, type: 3}
@@ -56,7 +57,12 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f290611ae0769445f9dda00f04db4f65, type: 3}
   - {fileID: 8300000, guid: 3b11dc12dd1e545988450edf04c40bb5, type: 3}
   - {fileID: 8300000, guid: 1f040ae5a1539427cb0777672da51dd0, type: 3}
-  bullSnorts: []
+  bullSnorts:
+  - {fileID: 8300000, guid: 09c7c6076134a450298003e1d9eafbbc, type: 3}
+  - {fileID: 8300000, guid: 2806a2f53781c4a7f8f434e67f596dc3, type: 3}
   bullMoo:
-  - {fileID: 8300000, guid: c244c3141607649918f54beb8a706957, type: 3}
+  - {fileID: 8300000, guid: 916a01628852247ec881a1d03352fb9d, type: 3}
+  - {fileID: 8300000, guid: 69d43a1e271694688aee219def4c20c0, type: 3}
+  - {fileID: 8300000, guid: 7bee63e2d7d8748b6bc50b383275eb3b, type: 3}
+  - {fileID: 8300000, guid: 0c258d9fbe17840d7ac6ab234c6f7b45, type: 3}
   bullPain: []

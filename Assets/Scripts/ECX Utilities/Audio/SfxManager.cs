@@ -23,6 +23,7 @@ namespace EcxUtilities {
         public AudioClip[] woodBreaks;
         public AudioClip[] coins;
         public AudioClip cashRegister;
+        public AudioClip allBroken;
         [Header("Bull SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
         public AudioClip[] footsteps;
         public AudioClip[] bullSnorts;
