@@ -2118,6 +2118,8 @@ MonoBehaviour:
   gameplayUI: {fileID: 0}
   gameOverUI: {fileID: 0}
   score: 0
+  gameTime: 180
+  pause: 0
   gameOver: 0
 --- !u!4 &1096004108
 Transform:
@@ -3670,6 +3672,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5017876056802013889, guid: 8faa9817b9bfc4b17a19f20491367f91, type: 3}
+      propertyPath: PauseUI
+      value: 
+      objectReference: {fileID: 6400832181529040955}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8faa9817b9bfc4b17a19f20491367f91, type: 3}
 --- !u!4 &5017876056802013888 stripped
@@ -3691,10 +3697,6 @@ PrefabInstance:
     - target: {fileID: 776283239, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 882886701, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
-      propertyPath: gameTime
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2141871224, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3846,3 +3848,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+--- !u!1 &6400832181529040955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2989259307041522158, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+  m_PrefabInstance: {fileID: 6400832181529040954}
+  m_PrefabAsset: {fileID: 0}

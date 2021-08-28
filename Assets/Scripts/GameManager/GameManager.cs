@@ -19,6 +19,8 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public Dictionary<string, KeyValuePair<int, int>> destroyedItems;
 
+    public bool pause;
+
     public bool gameOver;
 
     private void Awake()
@@ -30,6 +32,7 @@ public class GameManager : SingletonGameManager<GameManager> {
     private void Start()
     {
         gameOver = false;
+        pause = false;
         score = 0;
     }
 
