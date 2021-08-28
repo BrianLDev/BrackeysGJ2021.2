@@ -21,6 +21,7 @@ public static class SaveScore
     public static PlayerScore Load()
     {
         string path = Application.persistentDataPath + "/score.dat";
+
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
