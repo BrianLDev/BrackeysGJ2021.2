@@ -18,9 +18,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 82ab3ecc214df4facb5f321b3571835b, type: 3}
   - {fileID: 8300000, guid: 29018c584e539414d92eaec1106613ba, type: 3}
   - {fileID: 8300000, guid: de4b824a0905b43009504dd987140be0, type: 3}
-  - {fileID: 8300000, guid: be3dc81e3519c4c60b702de0d9555623, type: 3}
-  - {fileID: 8300000, guid: 1450db4f5a6ab4ea08325b195e65a261, type: 3}
-  - {fileID: 8300000, guid: 5ddf064c1c02c429e8cb91007e254f24, type: 3}
+  - {fileID: 8300000, guid: 13f61fa0e203a4c85951852bb946fa3b, type: 3}
+  - {fileID: 8300000, guid: d1697f60f03384e2a9fe0e3169a6eb88, type: 3}
   glassBreaks:
   - {fileID: 8300000, guid: ef76aaccb77284355a6ba2cdd09d5f66, type: 3}
   - {fileID: 8300000, guid: fe7131bb31e5e455d94c41542dcf095f, type: 3}
@@ -32,7 +31,13 @@ MonoBehaviour:
   - {fileID: 8300000, guid: c08a663d3ce3342409ac83765454bbca, type: 3}
   - {fileID: 8300000, guid: cb04ba02250924d9f8ed6b9a2c7a3ef9, type: 3}
   - {fileID: 8300000, guid: 189a49a5d1330494ebc38960ced06b9d, type: 3}
-  woodBreaks: []
+  woodBreaks:
+  - {fileID: 8300000, guid: aed49960b9be14e8fbcde00c3d048d72, type: 3}
+  - {fileID: 8300000, guid: fc3f1561300144ca79ff3dbd0ffd151e, type: 3}
+  - {fileID: 8300000, guid: 8a13035313b9249c88b4638c9f583497, type: 3}
+  - {fileID: 8300000, guid: 3e25fd013492f416e85d824570ffc5f1, type: 3}
+  - {fileID: 8300000, guid: 9adb926ff20c7460abe55cc17c19899f, type: 3}
+  - {fileID: 8300000, guid: 2dde30198f85d47c3a5c79d5d01f294a, type: 3}
   coins:
   - {fileID: 8300000, guid: 0977593af193746bebea9d973659f225, type: 3}
   - {fileID: 8300000, guid: e2b7b7fac4d1248a38dc0da1e93ef6c5, type: 3}
@@ -51,3 +56,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f290611ae0769445f9dda00f04db4f65, type: 3}
   - {fileID: 8300000, guid: 3b11dc12dd1e545988450edf04c40bb5, type: 3}
   - {fileID: 8300000, guid: 1f040ae5a1539427cb0777672da51dd0, type: 3}
+  bullSnorts: []
+  bullMoo:
+  - {fileID: 8300000, guid: c244c3141607649918f54beb8a706957, type: 3}
+  bullPain: []

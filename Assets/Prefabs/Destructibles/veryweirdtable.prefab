@@ -144,7 +144,7 @@ MonoBehaviour:
   objectType: 0
   demolitionType: 3
   physics:
-    materialType: 6
+    materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
     massBy: 0
     mass: 1

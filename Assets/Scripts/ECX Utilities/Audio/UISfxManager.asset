@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27fbdb4f9ca25442882c18e411b989c2, type: 3}
   m_Name: UISfxManager
   m_EditorClassIdentifier: 
-  mouseOver: {fileID: 0}
+  mouseOver:
+  - {fileID: 8300000, guid: ae4446721e17343c6ac27ab40d421b1e, type: 3}
+  - {fileID: 8300000, guid: 6470a26da94ec4ff884a93209c2eb0bb, type: 3}
+  - {fileID: 8300000, guid: d8276c888880d499db4927bd92ca5063, type: 3}
   buttonClicks:
   - {fileID: 8300000, guid: af6fd02d0d8464219b699c61eef0c1a5, type: 3}
   - {fileID: 8300000, guid: a6ecacfbc5ab24e99a5261e29f71faf9, type: 3}
   - {fileID: 8300000, guid: 067a246afd07d423fbdc1b7bf86b2d0b, type: 3}
-  errorSound: {fileID: 0}
+  errorSound: {fileID: 8300000, guid: adf90c252c2f345d9a35bffc1ff74ccd, type: 3}
