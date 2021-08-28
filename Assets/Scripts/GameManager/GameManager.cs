@@ -14,11 +14,17 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public int score;
 
+    [Tooltip("Gameplay Time in seconds")]
+    public float gameTime = 180;
+
+    public Dictionary<string, KeyValuePair<int, int>> destroyedItems;
+
     public bool gameOver;
 
     private void Awake()
     {
         Application.targetFrameRate = 60;
+        destroyedItems = new Dictionary<string, KeyValuePair<int, int>>();
     }
 
     private void Start()
@@ -44,12 +50,14 @@ public class GameManager : SingletonGameManager<GameManager> {
         for (int i = 0; i < items.childCount; ++i)
         {
             items.GetChild(i).gameObject.SetActive(true);
+            Canvas.ForceUpdateCanvases();
+            gameOverUI.Scroll.verticalNormalizedPosition = 0f;
             yield return new WaitForSecondsRealtime(0.2f);
         }
         int amount = 0;
         while (amount <= score)
         {
-            amount += 300;
+            amount += 100;
             gameOverUI.updateTotal(amount);
             yield return null;
         }
@@ -61,7 +69,7 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
         score = 0;
     }
