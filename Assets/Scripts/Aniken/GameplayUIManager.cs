@@ -15,7 +15,6 @@ public class GameplayUIManager : MonoBehaviour
     [Header("Score")]
     [Tooltip("Text Mesh Pro Object for Score")]
     public TextMeshProUGUI scoreText;
-    private int _score;
 
     [Space(10)]
     [Header("Others")]
@@ -30,7 +29,7 @@ public class GameplayUIManager : MonoBehaviour
     void Awake()
     {
         GameManager.Instance.gameplayUI = this;
-        _score = 10000;
+        GameManager.Instance.score = 10000;
     }
     // Start is called before the first frame update
     void Start()
@@ -43,30 +42,33 @@ public class GameplayUIManager : MonoBehaviour
     void Update()
     {
         Timer();
-        _score += 1;
-        setScore(_score);
+        GameManager.Instance.score += 1;
+        setScore(GameManager.Instance.score);
 
     }
 
     public void Timer()
     {
-        if(_timer >= 0.0f)
+        int minutes = Mathf.FloorToInt(_timer / 60F);
+        int seconds = Mathf.FloorToInt(_timer % 60F);
+        if (_timer >= 0.0f)
         {
             _timer -= Time.deltaTime;
+            timerText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
         }
         else
         {
-            GameManager.Instance.GameOver();
+            timerText.text = "00:00";
+            if(!GameManager.Instance.gameOver)
+                GameManager.Instance.GameOver();
         }
-        int minutes = Mathf.FloorToInt(_timer / 60F);
-        int seconds = Mathf.FloorToInt(_timer % 60F);
-        timerText.text = minutes.ToString("00") + ":" + seconds.ToString("00");
+        
     }
 
     public void setScore(int score)
     {
-        _score = score;
-        scoreText.text ="$ " + _score.ToString("##,#");
+        GameManager.Instance.score = score;
+        scoreText.text ="$ " + GameManager.Instance.score.ToString("##,#");
     }
 
     public void removeDash()
