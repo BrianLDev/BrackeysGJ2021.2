@@ -18,7 +18,7 @@ namespace EcxUtilities {
     public class UISfxManager : ScriptableObject {
 
         [Header("Standard UI SFX")]
-        public AudioClip mouseOver;
+        public AudioClip[] mouseOver;
         public AudioClip[] buttonClicks;
         public AudioClip errorSound;
 
