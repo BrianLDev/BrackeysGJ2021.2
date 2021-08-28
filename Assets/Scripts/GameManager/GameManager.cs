@@ -57,7 +57,7 @@ public class GameManager : SingletonGameManager<GameManager> {
         int amount = 0;
         while (amount <= score)
         {
-            amount += 30;
+            amount += 100;
             gameOverUI.updateTotal(amount);
             yield return null;
         }
@@ -69,7 +69,7 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
         score = 0;
     }
