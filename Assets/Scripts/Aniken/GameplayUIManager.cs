@@ -29,7 +29,6 @@ public class GameplayUIManager : MonoBehaviour
     void Awake()
     {
         GameManager.Instance.gameplayUI = this;
-        GameManager.Instance.score = 10000;
     }
     // Start is called before the first frame update
     void Start()

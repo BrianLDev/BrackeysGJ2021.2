@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 6400832181660553178}
-  gameTime: 10
+  gameTime: 180
   scoreText: {fileID: 6400832181480925486}
   clockAnim: {fileID: 6400832181046009059}
   dashCounts: {fileID: 6400832180530883029}
