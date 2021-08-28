@@ -4258,6 +4258,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776283239, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 776283239, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 882886701, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: gameTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141871224, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141871224, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2141871224, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2958927510091802182, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -4288,7 +4312,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005307166058948584, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400832180831634407, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29.999939
       objectReference: {fileID: 0}
     - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.y

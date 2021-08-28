@@ -14,11 +14,14 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public int score;
 
+    public Dictionary<string, KeyValuePair<int, int>> destroyedItems;
+
     public bool gameOver;
 
     private void Awake()
     {
         Application.targetFrameRate = 60;
+        destroyedItems = new Dictionary<string, KeyValuePair<int, int>>();
     }
 
     private void Start()
