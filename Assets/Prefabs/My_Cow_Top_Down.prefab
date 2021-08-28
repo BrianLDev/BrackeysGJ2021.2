@@ -674,6 +674,7 @@ MonoBehaviour:
   moveSpeed: 5
   RotationSmoothTime: 0.12
   DashTimeout: 3
+  PauseUI: {fileID: 0}
 --- !u!1 &1247043747989182
 GameObject:
   m_ObjectHideFlags: 0

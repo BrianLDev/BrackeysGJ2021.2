@@ -34,6 +34,7 @@ public class GameplayUIManager : MonoBehaviour
     {
         _timer = GameManager.Instance.gameTime;
         dashIndexs = new Queue<int>();
+        scoreText.text = "$0";
     }
 
     // Update is called once per frame

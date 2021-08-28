@@ -358,6 +358,14 @@
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "efe322c9-d871-4381-bcd3-1e77ca1cefdd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -391,6 +399,44 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "87c07d3d-c102-4e7b-81fa-470f0983a39c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "MainMenu",
+            "id": "226e979f-dc1c-4fad-a627-cc8b5debd0c8",
+            "actions": [
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "2d48f6eb-592c-4aab-88f0-3dd61fee3874",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c0f6cfe6-4aef-470d-be36-f9c529ab3560",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Back",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
