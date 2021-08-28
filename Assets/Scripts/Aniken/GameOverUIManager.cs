@@ -12,10 +12,13 @@ public class GameOverUIManager : MonoBehaviour
 
     public Text total;
 
+    public Button restart;
+
     void Awake()
     {
         GameManager.Instance.gameOverUI = this;
         this.gameObject.SetActive(false);
+        GameManager.Instance.gameOver = false;
     }
 
     public void AddItemsInContent()
@@ -30,5 +33,10 @@ public class GameOverUIManager : MonoBehaviour
     public void updateTotal(int amount)
     {
         total.text = amount.ToString("##,#");
+    }
+
+    public void RestartGame()
+    {
+        GameManager.Instance.RestartGame();
     }
 }

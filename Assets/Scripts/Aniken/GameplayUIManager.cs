@@ -59,8 +59,11 @@ public class GameplayUIManager : MonoBehaviour
         else
         {
             timerText.text = "00:00";
-            if(!GameManager.Instance.gameOver)
+            if (!GameManager.Instance.gameOver)
+            {
+                Debug.Log("Hi");
                 GameManager.Instance.GameOver();
+            }
         }
         
     }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using EcxUtilities;
 
 public class GameManager : SingletonGameManager<GameManager> {
@@ -23,6 +24,7 @@ public class GameManager : SingletonGameManager<GameManager> {
     private void Start()
     {
         gameOver = false;
+        score = 0;
     }
 
     public void GameOver()
@@ -53,7 +55,15 @@ public class GameManager : SingletonGameManager<GameManager> {
         }
         amount = score;
         gameOverUI.updateTotal(amount);
+        gameOverUI.restart.gameObject.SetActive(true);
 
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(1);
+        Time.timeScale = 1;
+        score = 0;
     }
 
 }
