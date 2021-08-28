@@ -14,7 +14,7 @@ public class GameOverUIManager : MonoBehaviour
 
     public Text total;
 
-    public Button restart;
+    public GameObject restart;
 
     void Awake()
     {

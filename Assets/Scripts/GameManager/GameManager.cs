@@ -66,7 +66,7 @@ public class GameManager : SingletonGameManager<GameManager> {
         }
         amount = score;
         gameOverUI.updateTotal(amount);
-        gameOverUI.restart.gameObject.SetActive(true);
+        gameOverUI.restart.SetActive(true);
 
     }
 

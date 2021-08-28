@@ -105,6 +105,7 @@ RectTransform:
   m_Children:
   - {fileID: 5275206}
   - {fileID: 275587414}
+  - {fileID: 530310656}
   m_Father: {fileID: 60496233739451979}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -227,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &530310656
 RectTransform:
   m_ObjectHideFlags: 0
@@ -235,12 +236,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530310655}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 60496233739451979}
-  m_RootOrder: 1
+  m_Father: {fileID: 177291773}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -756,7 +757,7 @@ MonoBehaviour:
   m_Interactable: 1
   m_TargetGraphic: {fileID: 776283240}
   m_HandleRect: {fileID: 776283239}
-  m_Direction: 3
+  m_Direction: 2
   m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
@@ -1093,7 +1094,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 177291773}
-  - {fileID: 530310656}
   m_Father: {fileID: 6400832181479536938}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1118,7 +1118,7 @@ MonoBehaviour:
   ItemContent: {fileID: 1083570329}
   Scroll: {fileID: 1510019179}
   total: {fileID: 1731972695}
-  restart: {fileID: 530310657}
+  restart: {fileID: 530310655}
 --- !u!1 &6400832180530883028
 GameObject:
   m_ObjectHideFlags: 0
