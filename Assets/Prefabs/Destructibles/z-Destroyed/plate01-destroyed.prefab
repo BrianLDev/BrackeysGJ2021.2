@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8403008274183282243}
   - component: {fileID: 7484622624533077469}
   - component: {fileID: 7474966984230633975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01_sh_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 1081477781921104372}
   - component: {fileID: 3251219065907683707}
   - component: {fileID: 2369309744407798344}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01_sh_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 3772966162346681598}
   - component: {fileID: 2909145531946317585}
   - component: {fileID: 3133751793623180934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01_sh_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 5110756490232400018}
   - component: {fileID: 8919751918013958347}
   - component: {fileID: 899949975754917795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01_sh_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,9 +461,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9157421268820815218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plate01-destroyed
-  m_TagString: Untagged
+  m_TagString: Destructibles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

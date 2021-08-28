@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TorchFire Prototype.unity
+    path: Assets/Scenes/TorchFire Prototype Enxuan Copy.unity
     guid: 4c73af155afed4176ab02efa219d7387
   m_configObjects: {}
