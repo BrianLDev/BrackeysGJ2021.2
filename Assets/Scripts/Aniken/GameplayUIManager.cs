@@ -8,8 +8,6 @@ public class GameplayUIManager : MonoBehaviour
     [Header("Timer")]
     [Tooltip("Text Mesh Pro Object for Timer")]
     public TextMeshProUGUI timerText;
-    [Tooltip("Gameplay Time in seconds")]
-    public float gameTime;
 
     [Space(10)]
     [Header("Score")]
@@ -34,7 +32,7 @@ public class GameplayUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _timer = gameTime;
+        _timer = GameManager.Instance.gameTime;
         dashIndexs = new Queue<int>();
     }
 
