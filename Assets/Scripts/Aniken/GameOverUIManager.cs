@@ -23,10 +23,15 @@ public class GameOverUIManager : MonoBehaviour
 
     public void AddItemsInContent()
     {
-        for (int i = 0; i < 15; ++i)
+        foreach(var item in GameManager.Instance.destroyedItems)
         {
-            GameObject item = Instantiate(ItemTemplate, ItemContent);
-            item.SetActive(false);
+            GameObject destroyed = Instantiate(ItemTemplate, ItemContent);
+
+            destroyed.transform.GetChild(0).GetComponent<Text>().text = item.Key;
+            destroyed.transform.GetChild(1).GetComponent<Text>().text = item.Value.Value.ToString();
+            destroyed.transform.GetChild(2).GetComponent<Text>().text = "$" + item.Value.Key.ToString("##,#");
+            destroyed.transform.GetChild(3).GetComponent<Text>().text = "$" +(item.Value.Key * item.Value.Value).ToString("##,#");
+            destroyed.SetActive(false);
         }
     }
 

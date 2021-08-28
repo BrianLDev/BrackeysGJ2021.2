@@ -14,6 +14,9 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public int score;
 
+    [Tooltip("Gameplay Time in seconds")]
+    public float gameTime = 180;
+
     public Dictionary<string, KeyValuePair<int, int>> destroyedItems;
 
     public bool gameOver;
