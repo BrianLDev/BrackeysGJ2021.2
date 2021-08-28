@@ -23,8 +23,11 @@ namespace EcxUtilities {
         public AudioClip[] woodBreaks;
         public AudioClip[] coins;
         public AudioClip cashRegister;
-        [Header("Player SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
+        [Header("Bull SFX")]   // UNCOMMENT THIS HEADER, RENAME IT, AND ADD ANY ADDITIONAL AUDIO CLIPS BELOW. THEN DRAG/DROP THEM IN THE UNITY EDITOR.
         public AudioClip[] footsteps;
+        public AudioClip[] bullSnorts;
+        public AudioClip[] bullMoo;
+        public AudioClip[] bullPain;
 
         // METHODS:
         // THE AUDIOMANAGER WILL HANDLE PLAYING MOST OF THE CLIPS, BUT IF YOU HAVE ANY CUSTOM SFX METHODS NEEDED, ADD THEM BELOW AS PUBLIC METHODS
