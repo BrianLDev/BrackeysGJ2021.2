@@ -10,6 +10,8 @@ public class GameOverUIManager : MonoBehaviour
 
     public Transform ItemContent;
 
+    public ScrollRect Scroll;
+
     public Text total;
 
     public Button restart;

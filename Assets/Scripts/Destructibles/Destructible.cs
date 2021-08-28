@@ -25,13 +25,17 @@ public class Destructible : MonoBehaviour
     if (itemName.IndexOf('(') > -1)
     {
       itemName = itemName.Substring(0, itemName.IndexOf('('));
-      itemName = itemName.Trim();
     }
+    if (itemName.IndexOf('0') > -1)
+    {
+      itemName = itemName.Substring(0, itemName.IndexOf('0'));
+    }
+    itemName = itemName.Trim();
   }
 
   void DestroyMe(RayfireRigid rigid)
   {
-    
+
     if (GameManager.Instance.destroyedItems.ContainsKey(itemName))
     {
       // then
@@ -41,7 +45,7 @@ public class Destructible : MonoBehaviour
     {
       GameManager.Instance.destroyedItems.Add(itemName, new KeyValuePair<int, int>(data.pointsForDestroying, 1));
     }
-    Debug.Log(GameManager.Instance.destroyedItems[itemName].Value.ToString());
+    Debug.Log(itemName);
 
     GameManager.Instance.score += data.pointsForDestroying;
     AudioManager.Instance.PlayClip(

@@ -50,12 +50,14 @@ public class GameManager : SingletonGameManager<GameManager> {
         for (int i = 0; i < items.childCount; ++i)
         {
             items.GetChild(i).gameObject.SetActive(true);
+            Canvas.ForceUpdateCanvases();
+            gameOverUI.Scroll.verticalNormalizedPosition = 0f;
             yield return new WaitForSecondsRealtime(0.2f);
         }
         int amount = 0;
         while (amount <= score)
         {
-            amount += 300;
+            amount += 30;
             gameOverUI.updateTotal(amount);
             yield return null;
         }
