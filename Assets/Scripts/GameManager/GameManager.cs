@@ -50,11 +50,7 @@ public class GameManager : SingletonGameManager<GameManager> {
         Time.timeScale = 0;
         gameOver = true;
         StartCoroutine(gameOverCoroutin());
-        if (score > highScore)
-        {
-            highScore = score;
-            SaveScore.Save();
-        }
+
     }
 
     private IEnumerator gameOverCoroutin()
@@ -73,14 +69,26 @@ public class GameManager : SingletonGameManager<GameManager> {
             yield return new WaitForSecondsRealtime(0.2f);
         }
         int amount = 0;
-        while (amount <= score)
+        while (amount < score)
         {
             amount += 100;
             gameOverUI.updateTotal(amount);
             yield return null;
         }
-        amount = score;
         gameOverUI.updateTotal(amount);
+        if (score > highScore)
+        {
+            amount = highScore;
+            highScore = score;
+            SaveScore.Save();
+
+            while (amount < highScore)
+            {
+                amount += 100;
+                gameOverUI.updateHighScore(amount);
+                yield return null;
+            }
+        }
         gameOverUI.restart.SetActive(true);
 
     }
