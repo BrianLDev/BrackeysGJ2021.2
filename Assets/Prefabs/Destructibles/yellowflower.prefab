@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 7859967448047746191}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 6.745, y: 0.791, z: -7.669}
-  m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   physics:
     materialType: 6
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
-    massBy: 0
+    massBy: 2
     mass: 1
     colliderType: 1
     planarCheck: 0
