@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TorchFire Prototype Enxuan Copy.unity
     guid: 4c73af155afed4176ab02efa219d7387
+  - enabled: 1
+    path: Assets/Scenes/Test-Cow-Top-Down.unity
+    guid: fbd5c587199d04ec0bb064a6ecf0e90a
   m_configObjects: {}
