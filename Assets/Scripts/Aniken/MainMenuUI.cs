@@ -50,6 +50,16 @@ public class MainMenuUI : MonoBehaviour
         setting.SetActive(false);
     }
 
+    public void SetSFXVolume(float volume)
+    {
+        //implemetion need for set the SFX voulme to parameter voulme 
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        //implemetion need for set the Music voulme to parameter voulme 
+    }
+
     public void Quit()
     {
         Application.Quit();

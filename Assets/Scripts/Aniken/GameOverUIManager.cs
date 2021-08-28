@@ -14,6 +14,8 @@ public class GameOverUIManager : MonoBehaviour
 
     public Text total;
 
+    public Text HighScore;
+
     public GameObject restart;
 
     void Awake()
@@ -40,6 +42,11 @@ public class GameOverUIManager : MonoBehaviour
     public void updateTotal(int amount)
     {
         total.text = "$" + amount.ToString("##,#");
+    }
+
+    public void updateHighScore(int amount)
+    {
+        HighScore.text = "$" + amount.ToString("##,#");
     }
 
     public void RestartGame()
