@@ -77,11 +77,6 @@ public class GameplayUIManager : MonoBehaviour
         
     }
 
-    public void setScore(int score)
-    {
-        GameManager.Instance.score = score;
-    }
-
     public void SetScoreText()
     {
         scoreText.text = "$ " + _currentScore.ToString("##,#");
