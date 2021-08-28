@@ -3169,6 +3169,7 @@ MonoBehaviour:
   gameplayUI: {fileID: 0}
   gameOverUI: {fileID: 0}
   score: 0
+  gameTime: 180
   gameOver: 0
 --- !u!4 &1096004108
 Transform:
@@ -7085,7 +7086,7 @@ PrefabInstance:
     - target: {fileID: 357628075, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: Scroll
       value: 
-      objectReference: {fileID: 276192439}
+      objectReference: {fileID: 6400832181529040955}
     - target: {fileID: 776283239, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -7152,7 +7153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6400832180831634407, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -29.999939
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 6400832181037347250, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7292,6 +7293,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+--- !u!114 &6400832181529040955 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1510019179, guid: ccba61fa7634a40b098e5bdf84f41e28, type: 3}
+  m_PrefabInstance: {fileID: 6400832181529040954}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7839340987404272920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1606451506381519714, guid: b6135024d485011439c5457dc8d34354, type: 3}
