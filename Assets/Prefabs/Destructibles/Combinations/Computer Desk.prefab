@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3586876321894856749}
   m_Layer: 0
-  m_Name: Computer Desk
+  m_Name: computer desk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

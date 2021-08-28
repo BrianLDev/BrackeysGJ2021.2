@@ -128,7 +128,7 @@ MonoBehaviour:
   physics:
     materialType: 9
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
-    massBy: 0
+    massBy: 2
     mass: 3
     colliderType: 1
     planarCheck: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
     layer: 
   limitations:
     byCollision: 1
-    solidity: 3
+    solidity: 0.7
     tag: 
     depth: 1
     time: 0.2

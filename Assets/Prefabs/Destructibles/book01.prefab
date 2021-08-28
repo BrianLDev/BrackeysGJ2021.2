@@ -133,7 +133,7 @@ MonoBehaviour:
   physics:
     materialType: 5
     material: {fileID: 13400000, guid: f018caee0fc12447ebd9aac3f52d27bb, type: 2}
-    massBy: 0
+    massBy: 2
     mass: 1
     colliderType: 1
     planarCheck: 0
