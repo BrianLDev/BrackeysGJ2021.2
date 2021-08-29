@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.41016, y: -19.557617}
-  m_SizeDelta: {x: 1065.1797, y: 1040.8848}
+  m_AnchoredPosition: {x: 406.20325, y: -19.557617}
+  m_SizeDelta: {x: 1107.5935, y: 1040.8848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162124297
 MonoBehaviour:
@@ -1216,7 +1216,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &499672053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2158,7 +2158,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -48.556564}
-  m_SizeDelta: {x: 1022.6121, y: 982.8871}
+  m_SizeDelta: {x: 1073.5085, y: 982.8871}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1046852223
 MonoBehaviour:
@@ -2199,10 +2199,11 @@ MonoBehaviour:
 
     TorchFire -lead,Gameplay,tools,system
 
-    Enxuan zhou- gameplay,animation,UI,system
+    Enxuan zhou -gameplay,animation,UI,system
 
     spatialfree
     - gameplay,system
+
 
 
 
