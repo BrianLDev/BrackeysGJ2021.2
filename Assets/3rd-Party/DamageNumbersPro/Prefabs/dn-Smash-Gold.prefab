@@ -514,11 +514,11 @@ MonoBehaviour:
     frequency: 50
   enableCombination: 1
   combinationSettings:
-    absorberType: 0
+    absorberType: 1
     combinationGroup: Gold
     maxDistance: 10
     instantGain: 1
-    delay: 0.2
+    delay: 0.5
     bonusLifetime: 1
     absorberSpeed: 0
     targetSpeed: 0.5
