@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4399211090220932529, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
+  - {fileID: 4399211090220932529, guid: 322c6f86bf808486086dbc267b629bbd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: <space=0.2em>$<space=0.2em>1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322c6f86bf808486086dbc267b629bbd, type: 2}
   m_sharedMaterial: {fileID: 4399211090220932529, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
   m_fontSharedMaterials:
   - {fileID: 2603715058135664298, guid: f208cc2251dae2d46999d1bcdadf9ba9, type: 2}
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 8439583952360999061}
   m_maskType: 0
   _SortingLayer: 0
@@ -237,7 +237,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4399211090220932529, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
+  - {fileID: 4399211090220932529, guid: 322c6f86bf808486086dbc267b629bbd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: <space=0.2em>$<space=0.2em>1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 322c6f86bf808486086dbc267b629bbd, type: 2}
   m_sharedMaterial: {fileID: 4399211090220932529, guid: 717bf3255e3a51c4cb71fca832616acd, type: 2}
   m_fontSharedMaterials:
   - {fileID: 2603715058135664298, guid: f208cc2251dae2d46999d1bcdadf9ba9, type: 2}
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_renderer: {fileID: 8439583952360999061}
   m_maskType: 0
   _SortingLayer: 0
@@ -514,11 +514,11 @@ MonoBehaviour:
     frequency: 50
   enableCombination: 1
   combinationSettings:
-    absorberType: 0
+    absorberType: 1
     combinationGroup: Bronze
     maxDistance: 10
     instantGain: 1
-    delay: 0.2
+    delay: 0.5
     bonusLifetime: 1
     absorberSpeed: 0
     targetSpeed: 0.5
