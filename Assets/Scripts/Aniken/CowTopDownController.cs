@@ -39,6 +39,14 @@ public class CowTopDownController : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
         _allDashes = true;
+        Time.timeScale = 0;
+        StartCoroutine(Delay());
+    }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSecondsRealtime(1f);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

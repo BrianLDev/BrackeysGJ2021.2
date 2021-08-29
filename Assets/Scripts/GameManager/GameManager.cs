@@ -95,9 +95,8 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         Time.timeScale = 1;
         score = 0;
     }
-
 }

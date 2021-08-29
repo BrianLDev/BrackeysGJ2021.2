@@ -10,6 +10,8 @@ public class GameOverUIManager : MonoBehaviour
 
     public Transform ItemContent;
 
+    public Animator transition;
+
     public ScrollRect Scroll;
 
     public Text total;
@@ -51,6 +53,13 @@ public class GameOverUIManager : MonoBehaviour
 
     public void RestartGame()
     {
+        StartCoroutine(RestartScene());
+    }
+
+    private IEnumerator RestartScene()
+    {
+        transition.SetTrigger("Enter");
+        yield return new WaitForSecondsRealtime(2.5f);
         GameManager.Instance.RestartGame();
     }
 }
