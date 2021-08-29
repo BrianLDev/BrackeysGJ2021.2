@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.41016, y: 0}
-  m_SizeDelta: {x: 1065.1797, y: 1080}
+  m_AnchoredPosition: {x: 427.41016, y: -19.557617}
+  m_SizeDelta: {x: 1065.1797, y: 1040.8848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162124297
 MonoBehaviour:
@@ -271,7 +271,6 @@ MonoBehaviour:
   m_Text: '
 
     Programming
-
 
 
 
@@ -2158,8 +2157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -12.0355}
-  m_SizeDelta: {x: 1013.3456, y: 1055.9292}
+  m_AnchoredPosition: {x: 0, y: -48.556564}
+  m_SizeDelta: {x: 1022.6121, y: 982.8871}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1046852223
 MonoBehaviour:
@@ -2183,7 +2182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 48
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2198,7 +2197,7 @@ MonoBehaviour:
 
 
 
-    TorchFire - lead,Gameplay,tools,system
+    TorchFire -lead,Gameplay,tools,system
 
     Enxuan zhou- gameplay,animation,UI,system
 
@@ -2217,6 +2216,7 @@ MonoBehaviour:
     dip - 3d model,UI
 
     spatialfree - levels
+
 
 
 
