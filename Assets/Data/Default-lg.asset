@@ -21,3 +21,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 82ab3ecc214df4facb5f321b3571835b, type: 3}
   - {fileID: 8300000, guid: 29018c584e539414d92eaec1106613ba, type: 3}
   - {fileID: 8300000, guid: de4b824a0905b43009504dd987140be0, type: 3}
+  damageNumPrefab: {fileID: 8439583952752304527, guid: 1be504fbf7578412580904c692f6cc18, type: 3}

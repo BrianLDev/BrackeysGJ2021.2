@@ -5,6 +5,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 using EcxUtilities;
 using RayFire;
+using DamageNumbersPro;
 
 public class Destructible : MonoBehaviour
 {
@@ -47,6 +48,7 @@ public class Destructible : MonoBehaviour
     }
     Debug.Log(itemName);
 
+    DamageNumber dn = data.damageNumPrefab.CreateNew(data.pointsForDestroying, transform.position);
     GameManager.Instance.score += data.pointsForDestroying;
     AudioManager.Instance.PlayClip(
         AudioManager.GetRandomClip(data.destroySfx),

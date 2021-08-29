@@ -18,3 +18,4 @@ MonoBehaviour:
   destroySfx:
   - {fileID: 8300000, guid: ef76aaccb77284355a6ba2cdd09d5f66, type: 3}
   - {fileID: 8300000, guid: fe7131bb31e5e455d94c41542dcf095f, type: 3}
+  damageNumPrefab: {fileID: 8439583952752304527, guid: 1be504fbf7578412580904c692f6cc18, type: 3}
