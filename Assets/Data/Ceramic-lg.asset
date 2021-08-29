@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ceramic-lg
   m_EditorClassIdentifier: 
   mass: 5
-  pointsForDestroying: 100
+  pointsForDestroying: 500
   solidity: 0.8
   destroySfx:
   - {fileID: 8300000, guid: 1104cb850d4d94e95b132feaaf58909a, type: 3}
