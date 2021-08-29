@@ -45,8 +45,9 @@ public class CowTopDownController : MonoBehaviour
 
     IEnumerator Delay()
     {
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(4f);
         Time.timeScale = 1;
+        GameManager.Instance.pause = false;
     }
 
     // Update is called once per frame
@@ -56,6 +57,7 @@ public class CowTopDownController : MonoBehaviour
         Dash();
         Move();
         Pause();
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     private void Move()

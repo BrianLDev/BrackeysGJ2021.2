@@ -36,7 +36,12 @@ public class MainMenuUI : MonoBehaviour
     {
         transition.SetActive(true);
         yield return new WaitForSeconds(2.5f);
-        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(1);
+        while(!operation.isDone)
+        {
+            yield return null;
+        }
+
     }
 
     public void Credit()

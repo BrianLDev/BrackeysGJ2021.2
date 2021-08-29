@@ -17,16 +17,16 @@ namespace DamageNumbersPro
 
         void Update()
         {
-            if (Input.GetMouseButton(0))
-            {
-                Cursor.lockState = CursorLockMode.Locked;
-                Cursor.visible = false;
-            }
-            if(Input.GetKeyDown(KeyCode.Escape))
-            {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
-            }
+            //if (Input.GetMouseButton(0))
+            //{
+            //    Cursor.lockState = CursorLockMode.Locked;
+            //    Cursor.visible = false;
+            //}
+            //if(Input.GetKeyDown(KeyCode.Escape))
+            //{
+            //    Cursor.lockState = CursorLockMode.None;
+            //    Cursor.visible = true;
+            //}
 
             //Looking:
             angularVelocity += new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
