@@ -55,4 +55,9 @@ public class GameOverUIManager : MonoBehaviour
     {
         GameManager.Instance.RestartGame();
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
