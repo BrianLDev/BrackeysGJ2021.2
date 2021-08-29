@@ -41,7 +41,7 @@ public class GameManager : SingletonGameManager<GameManager> {
     private void Start()
     {
         gameOver = false;
-        pause = false;
+        pause = true;
         score = 0;
     }
 
@@ -49,6 +49,7 @@ public class GameManager : SingletonGameManager<GameManager> {
     {
         Time.timeScale = 0;
         gameOver = true;
+        //pause = true;
         StartCoroutine(gameOverCoroutin());
 
     }
@@ -95,8 +96,18 @@ public class GameManager : SingletonGameManager<GameManager> {
 
     public void RestartGame()
     {
-        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
-        Time.timeScale = 1;
         score = 0;
+        StartCoroutine(RestartScene());
+    }
+
+    private IEnumerator RestartScene()
+    {
+        gameOverUI.transition.SetTrigger("Enter");
+        yield return new WaitForSecondsRealtime(2.5f);
+        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+        while(!operation.isDone)
+        {
+            yield return null;
+        }
     }
 }

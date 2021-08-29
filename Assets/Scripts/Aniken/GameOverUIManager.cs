@@ -53,13 +53,11 @@ public class GameOverUIManager : MonoBehaviour
 
     public void RestartGame()
     {
-        StartCoroutine(RestartScene());
+        GameManager.Instance.RestartGame();
     }
 
-    private IEnumerator RestartScene()
+    public void QuitGame()
     {
-        transition.SetTrigger("Enter");
-        yield return new WaitForSecondsRealtime(2.5f);
-        GameManager.Instance.RestartGame();
+        Application.Quit();
     }
 }
