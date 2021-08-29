@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6560900275517363633}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 1.529, y: 2, z: -8.28}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialization: 1
-  simulationType: 0
+  simulationType: 1
   objectType: 0
   demolitionType: 3
   physics:
