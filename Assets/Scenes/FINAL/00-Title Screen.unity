@@ -232,8 +232,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 427.41016, y: -66.19501}
-  m_SizeDelta: {x: 1065.1797, y: 947.61}
+  m_AnchoredPosition: {x: 427.41016, y: 0}
+  m_SizeDelta: {x: 1065.1797, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &162124297
 MonoBehaviour:
@@ -257,11 +257,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 72
+    m_FontSize: 84
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 72
+    m_MinSize: 0
+    m_MaxSize: 108
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Text: '
 
     Programming
+
 
 
 
@@ -2157,8 +2158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -66.19501}
-  m_SizeDelta: {x: 1013.3456, y: 947.61}
+  m_AnchoredPosition: {x: 0, y: -12.0355}
+  m_SizeDelta: {x: 1013.3456, y: 1055.9292}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1046852223
 MonoBehaviour:
@@ -2182,11 +2183,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
-    m_FontSize: 36
+    m_FontSize: 48
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 48
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2197,14 +2198,12 @@ MonoBehaviour:
 
 
 
-
-    TorchFire - lead,Gameplay,audio,system
+    TorchFire - lead,Gameplay,tools,system
 
     Enxuan zhou- gameplay,animation,UI,system
 
     spatialfree
     - gameplay,system
-
 
 
 
@@ -2218,7 +2217,6 @@ MonoBehaviour:
     dip - 3d model,UI
 
     spatialfree - levels
-
 
 
 

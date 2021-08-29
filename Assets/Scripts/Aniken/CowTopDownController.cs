@@ -153,4 +153,15 @@ public class CowTopDownController : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(state == PlayerState.DASH)
+        {
+            if(collision.gameObject.CompareTag("Wall"))
+            {
+                transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y + 180, 0f);
+            }
+        }
+    }
 }
