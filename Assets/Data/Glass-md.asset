@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Glass-md
   m_EditorClassIdentifier: 
   mass: 2.5
-  pointsForDestroying: 50
+  pointsForDestroying: 100
   solidity: 0.2
   destroySfx:
   - {fileID: 8300000, guid: ef76aaccb77284355a6ba2cdd09d5f66, type: 3}

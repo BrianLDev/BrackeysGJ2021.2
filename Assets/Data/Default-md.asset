@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Default-md
   m_EditorClassIdentifier: 
   mass: 2.5
-  pointsForDestroying: 50
+  pointsForDestroying: 100
   solidity: 0.75
   destroySfx:
   - {fileID: 8300000, guid: d5d5149d6c9f44de7ad3536131ebf226, type: 3}
