@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
@@ -11,11 +10,9 @@ public class MainMenuUI : MonoBehaviour
 
     public GameObject credit;
 
-    public Slider sfxSlider;
-
-    public Slider MusicSlider;
-
     private PlayerInput _input;
+
+    public GameObject transition;
 
     void Awake()
     {
@@ -32,7 +29,14 @@ public class MainMenuUI : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        StartCoroutine(LoadScene(1));
+    }
+
+    IEnumerator LoadScene(int buildindex)
+    {
+        transition.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        SceneManager.LoadSceneAsync(1, LoadSceneMode.Single);
     }
 
     public void Credit()
