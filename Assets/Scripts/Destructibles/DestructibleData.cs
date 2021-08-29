@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DamageNumbersPro;
 using EcxUtilities;
 using JetBrains.Annotations;
 using UnityEditor;
@@ -15,6 +16,7 @@ public class DestructibleData : ScriptableObject {
     public float solidity;
     [Tooltip("The SFX clip played when object is destroyed")]
     public AudioClip[] destroySfx;
+    public DamageNumber damageNumPrefab;
     // If we need to track any other destructible varialbes, add them here
 
 }
