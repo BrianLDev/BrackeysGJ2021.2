@@ -4736,7 +4736,7 @@ MonoBehaviour:
   gameOverUI: {fileID: 1207701540}
   score: 0
   highScore: 0
-  gameTime: 60
+  gameTime: 30
   pause: 0
   gameOver: 0
 --- !u!4 &1096004108
